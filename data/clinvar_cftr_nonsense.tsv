@@ -1,0 +1,313 @@
+AlleleID	Name	ClinicalSignificance	ReviewStatus	Chromosome	Start	ReferenceAllele	AlternateAllele
+22146	NM_000492.4(CFTR):c.1477C>T (p.Gln493Ter)	Pathogenic	reviewed by expert panel	7	117199602	na	na
+22154	NM_000492.4(CFTR):c.1624G>T (p.Gly542Ter)	Pathogenic	practice guideline	7	117227832	na	na
+22161	NM_000492.4(CFTR):c.1657C>T (p.Arg553Ter)	Pathogenic	practice guideline	7	117227865	na	na
+22164	NM_000492.4(CFTR):c.3764C>A (p.Ser1255Ter)	Pathogenic	reviewed by expert panel	7	117282538	na	na
+22166	NM_000492.4(CFTR):c.2538G>A (p.Trp846Ter)	Pathogenic	reviewed by expert panel	7	117235031	na	na
+22168	NM_000492.4(CFTR):c.3846G>A (p.Trp1282Ter)	Pathogenic	practice guideline	7	117282620	na	na
+22172	NM_000492.4(CFTR):c.3947G>A (p.Trp1316Ter)	Pathogenic	criteria provided, single submitter	7	117292969	na	na
+22176	NM_000492.4(CFTR):c.3484C>T (p.Arg1162Ter)	Pathogenic	practice guideline	7	117267591	na	na
+22180	NM_000492.4(CFTR):c.2551C>T (p.Arg851Ter)	Pathogenic	reviewed by expert panel	7	117235044	na	na
+22183	NM_000492.4(CFTR):c.3472C>T (p.Arg1158Ter)	Pathogenic	reviewed by expert panel	7	117267579	na	na
+22190	NM_000492.4(CFTR):c.1572C>A (p.Cys524Ter)	Pathogenic	reviewed by expert panel	7	117199697	na	na
+22196	NM_000492.4(CFTR):c.2479G>T (p.Glu827Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117232700	na	na
+22213	NM_000492.4(CFTR):c.2146A>T (p.Lys716Ter)	Pathogenic	no assertion criteria provided	7	117232367	na	na
+22215	NM_000492.4(CFTR):c.3712C>T (p.Gln1238Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117267819	na	na
+22218	NM_000492.4(CFTR):c.171G>A (p.Trp57Ter)	Pathogenic	reviewed by expert panel	7	117149094	na	na
+22219	NM_000492.4(CFTR):c.3937C>T (p.Gln1313Ter)	Pathogenic	reviewed by expert panel	7	117292959	na	na
+22225	NM_000492.4(CFTR):c.274G>T (p.Glu92Ter)	Pathogenic	reviewed by expert panel	7	117170953	na	na
+22233	NM_000492.4(CFTR):c.3266G>A (p.Trp1089Ter)	Pathogenic	reviewed by expert panel	7	117251761	na	na
+22240	NM_000492.4(CFTR):c.1654C>T (p.Gln552Ter)	Pathogenic	reviewed by expert panel	7	117227862	na	na
+22242	NM_000492.4(CFTR):c.2128A>T (p.Lys710Ter)	Pathogenic	reviewed by expert panel	7	117232349	na	na
+22243	NM_000492.4(CFTR):c.2668C>T (p.Gln890Ter)	Pathogenic	reviewed by expert panel	7	117243596	na	na
+22250	NM_000492.4(CFTR):c.3276C>G (p.Tyr1092Ter)	Pathogenic	reviewed by expert panel	7	117251771	na	na
+22251	NM_000492.4(CFTR):c.3611G>A (p.Trp1204Ter)	Pathogenic	reviewed by expert panel	7	117267718	na	na
+22262	NM_000492.4(CFTR):c.4364C>G (p.Ser1455Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117307083	na	na
+22274	NM_000492.4(CFTR):c.19G>T (p.Glu7Ter)	Pathogenic	criteria provided, single submitter	7	117120167	na	na
+44481	NM_000492.4(CFTR):c.114C>G (p.Tyr38Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117144367	na	na
+44486	NM_000492.4(CFTR):c.1397C>G (p.Ser466Ter)	Pathogenic	reviewed by expert panel	7	117199522	na	na
+44519	NM_000492.4(CFTR):c.2932A>T (p.Lys978Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117246751	na	na
+44554	NM_000492.4(CFTR):c.825C>G (p.Tyr275Ter)	Pathogenic	reviewed by expert panel	7	117176683	na	na
+47333	NM_000492.4(CFTR):c.3276C>A (p.Tyr1092Ter)	Pathogenic	reviewed by expert panel	7	117251771	na	na
+47335	NM_000492.4(CFTR):c.178G>T (p.Glu60Ter)	Pathogenic	reviewed by expert panel	7	117149101	na	na
+47438	NM_000492.4(CFTR):c.366T>A (p.Tyr122Ter)	Pathogenic	reviewed by expert panel	7	117171045	na	na
+57834	NM_000492.4(CFTR):c.223C>T (p.Arg75Ter)	Pathogenic	reviewed by expert panel	7	117149146	na	na
+57836	NM_000492.4(CFTR):c.3587C>G (p.Ser1196Ter)	Pathogenic	reviewed by expert panel	7	117267694	na	na
+57870	NM_000492.4(CFTR):c.988G>T (p.Gly330Ter)	Pathogenic	reviewed by expert panel	7	117180272	na	na
+67843	NM_000492.4(CFTR):c.1057C>T (p.Gln353Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117180341	na	na
+67846	NM_000492.4(CFTR):c.1068G>A (p.Trp356Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117180352	na	na
+67853	NM_000492.4(CFTR):c.1086T>A (p.Tyr362Ter)	not provided	no classification provided	7	117180370	na	na
+67854	NM_000492.4(CFTR):c.1086T>G (p.Tyr362Ter)	not provided	no classification provided	7	117180370	na	na
+67868	NM_000492.4(CFTR):c.1135G>T (p.Glu379Ter)	Pathogenic	reviewed by expert panel	7	117182088	na	na
+67872	NM_000492.4(CFTR):c.115C>T (p.Gln39Ter)	Pathogenic	reviewed by expert panel	7	117144368	na	na
+67879	NM_000492.4(CFTR):c.11C>A (p.Ser4Ter)	Pathogenic	reviewed by expert panel	7	117120159	na	na
+67880	NM_000492.4(CFTR):c.1202G>A (p.Trp401Ter)	Pathogenic	reviewed by expert panel	7	117182155	na	na
+67881	NM_000492.4(CFTR):c.1203G>A (p.Trp401Ter)	Pathogenic	reviewed by expert panel	7	117182156	na	na
+67890	NM_000492.4(CFTR):c.1240C>T (p.Gln414Ter)	Pathogenic	reviewed by expert panel	7	117188725	na	na
+67912	NM_000492.4(CFTR):c.1397C>A (p.Ser466Ter)	Pathogenic	reviewed by expert panel	7	117199522	na	na
+67921	NM_000492.4(CFTR):c.1435G>T (p.Glu479Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117199560	na	na
+67927	NM_000492.4(CFTR):c.1466C>A (p.Ser489Ter)	Pathogenic	reviewed by expert panel	7	117199591	na	na
+67933	NM_000492.4(CFTR):c.1487G>A (p.Trp496Ter)	Pathogenic	reviewed by expert panel	7	117199612	na	na
+67942	NM_000492.4(CFTR):c.1510G>T (p.Glu504Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117199635	na	na
+67950	NM_000492.4(CFTR):c.1573C>T (p.Gln525Ter)	Pathogenic	reviewed by expert panel	7	117199698	na	na
+67965	NM_000492.4(CFTR):c.1606A>T (p.Lys536Ter)	not provided	no classification provided	7	117227814	na	na
+67980	NM_000492.4(CFTR):c.1648G>T (p.Gly550Ter)	Pathogenic	reviewed by expert panel	7	117227856	na	na
+68016	NM_000492.4(CFTR):c.1703T>A (p.Leu568Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117230430	na	na
+68022	NM_000492.4(CFTR):c.1707T>A (p.Tyr569Ter)	Pathogenic	criteria provided, single submitter	7	117230434	na	na
+68023	NM_000492.4(CFTR):c.170G>A (p.Trp57Ter)	Pathogenic	reviewed by expert panel	7	117149093	na	na
+68028	NM_000492.4(CFTR):c.1726G>T (p.Gly576Ter)	not provided	no classification provided	7	117230453	na	na
+68042	NM_000492.4(CFTR):c.1753G>T (p.Glu585Ter)	Pathogenic	reviewed by expert panel	7	117230480	na	na
+68055	NM_000492.4(CFTR):c.1792A>T (p.Lys598Ter)	Pathogenic	criteria provided, single submitter	7	117232013	na	na
+68081	NM_000492.4(CFTR):c.1909C>T (p.Gln637Ter)	Pathogenic	criteria provided, single submitter	7	117232130	na	na
+68084	NM_000492.4(CFTR):c.1966G>T (p.Glu656Ter)	Pathogenic	reviewed by expert panel	7	117232187	na	na
+68090	NM_000492.4(CFTR):c.1990G>T (p.Glu664Ter)	Pathogenic	reviewed by expert panel	7	117232211	na	na
+68095	NM_000492.4(CFTR):c.2017G>T (p.Gly673Ter)	Pathogenic	reviewed by expert panel	7	117232238	na	na
+68097	NM_000492.4(CFTR):c.2036G>A (p.Trp679Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117232257	na	na
+68102	NM_000492.4(CFTR):c.2053C>T (p.Gln685Ter)	Pathogenic	reviewed by expert panel	7	117232274	na	na
+68103	NM_000492.4(CFTR):c.2074G>T (p.Glu692Ter)	not provided	no classification provided	7	117232295	na	na
+68108	NM_000492.4(CFTR):c.2125C>T (p.Arg709Ter)	Pathogenic	reviewed by expert panel	7	117232346	na	na
+68110	NM_000492.4(CFTR):c.2143C>T (p.Gln715Ter)	Pathogenic	reviewed by expert panel	7	117232364	na	na
+68112	NM_000492.4(CFTR):c.2156T>A (p.Leu719Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117232377	na	na
+68113	NM_000492.4(CFTR):c.2158C>T (p.Gln720Ter)	Pathogenic	reviewed by expert panel	7	117232379	na	na
+68118	NM_000492.4(CFTR):c.2188G>T (p.Glu730Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117232409	na	na
+68119	NM_000492.4(CFTR):c.2195T>G (p.Leu732Ter)	Pathogenic	reviewed by expert panel	7	117232416	na	na
+68125	NM_000492.4(CFTR):c.2233G>T (p.Gly745Ter)	Pathogenic	reviewed by expert panel	7	117232454	na	na
+68139	NM_000492.4(CFTR):c.2290C>T (p.Arg764Ter)	Pathogenic	reviewed by expert panel	7	117232511	na	na
+68142	NM_000492.4(CFTR):c.2327C>G (p.Ser776Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117232548	na	na
+68146	NM_000492.4(CFTR):c.2341C>T (p.Gln781Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117232562	na	na
+68148	NM_000492.4(CFTR):c.2353C>T (p.Arg785Ter)	Pathogenic	reviewed by expert panel	7	117232574	na	na
+68150	NM_000492.4(CFTR):c.236G>A (p.Trp79Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117149159	na	na
+68151	NM_000492.4(CFTR):c.2374C>T (p.Arg792Ter)	Pathogenic	reviewed by expert panel	7	117232595	na	na
+68158	NM_000492.4(CFTR):c.2440C>T (p.Gln814Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117232661	na	na
+68160	NM_000492.4(CFTR):c.2464G>T (p.Glu822Ter)	Pathogenic	reviewed by expert panel	7	117232685	na	na
+68161	NM_000492.4(CFTR):c.2467G>T (p.Glu823Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117232688	na	na
+68164	NM_000492.4(CFTR):c.2488A>T (p.Lys830Ter)	Pathogenic	criteria provided, single submitter	7	117232709	na	na
+68169	NM_000492.4(CFTR):c.2491G>T (p.Glu831Ter)	Pathogenic	reviewed by expert panel	7	117234984	na	na
+68170	NM_000492.4(CFTR):c.2496C>A (p.Cys832Ter)	Pathogenic	criteria provided, single submitter	7	117234989	na	na
+68176	NM_000492.4(CFTR):c.2537G>A (p.Trp846Ter)	Pathogenic	reviewed by expert panel	7	117235030	na	na
+68177	NM_000492.4(CFTR):c.2547C>A (p.Tyr849Ter)	Pathogenic	reviewed by expert panel	7	117235040	na	na
+68189	NM_000492.4(CFTR):c.2600T>A (p.Leu867Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117235093	na	na
+68200	NM_000492.4(CFTR):c.263T>A (p.Leu88Ter)	Pathogenic	reviewed by expert panel	7	117149186	na	na
+68202	NM_000492.4(CFTR):c.263T>G (p.Leu88Ter)	Pathogenic	reviewed by expert panel	7	117149186	na	na
+68203	NM_000492.4(CFTR):c.2645G>A (p.Trp882Ter)	Pathogenic	reviewed by expert panel	7	117242905	na	na
+68218	NM_000492.4(CFTR):c.2735C>A (p.Ser912Ter)	Pathogenic	reviewed by expert panel	7	117243663	na	na
+68220	NM_000492.4(CFTR):c.2739T>A (p.Tyr913Ter)	Pathogenic	reviewed by expert panel	7	117243667	na	na
+68268	NM_000492.4(CFTR):c.292C>T (p.Gln98Ter)	Pathogenic	reviewed by expert panel	7	117170971	na	na
+68292	NM_000492.4(CFTR):c.3007G>T (p.Gly1003Ter)	not provided	no classification provided	7	117250591	na	na
+68301	NM_000492.4(CFTR):c.302T>G (p.Leu101Ter)	Pathogenic	criteria provided, single submitter	7	117170981	na	na
+68318	NM_000492.4(CFTR):c.3103C>T (p.Gln1035Ter)	Pathogenic	reviewed by expert panel	7	117250687	na	na
+68322	NM_000492.4(CFTR):c.3124C>T (p.Gln1042Ter)	Pathogenic	reviewed by expert panel	7	117250708	na	na
+68337	NM_000492.4(CFTR):c.3176T>G (p.Leu1059Ter)	not provided	no classification provided	7	117251671	na	na
+68342	NM_000492.4(CFTR):c.3189G>A (p.Trp1063Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117251684	na	na
+68355	NM_000492.4(CFTR):c.3211C>T (p.Gln1071Ter)	Pathogenic	criteria provided, single submitter	7	117251706	na	na
+68370	NM_000492.4(CFTR):c.327T>A (p.Tyr109Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117171006	na	na
+68376	NM_000492.4(CFTR):c.3293G>A (p.Trp1098Ter)	Pathogenic	reviewed by expert panel	7	117251788	na	na
+68381	NM_000492.4(CFTR):c.3304A>T (p.Arg1102Ter)	Pathogenic	reviewed by expert panel	7	117251799	na	na
+68383	NM_000492.4(CFTR):c.3310G>T (p.Glu1104Ter)	Pathogenic	reviewed by expert panel	7	117251805	na	na
+68397	NM_000492.4(CFTR):c.3382A>T (p.Arg1128Ter)	Pathogenic	reviewed by expert panel	7	117254681	na	na
+68402	NM_000492.4(CFTR):c.340A>T (p.Lys114Ter)	Pathogenic	criteria provided, single submitter	7	117171019	na	na
+68408	NM_000492.4(CFTR):c.3430C>T (p.Gln1144Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117254729	na	na
+68409	NM_000492.4(CFTR):c.3435G>A (p.Trp1145Ter)	Pathogenic	reviewed by expert panel	7	117254734	na	na
+68434	NM_000492.4(CFTR):c.3529A>T (p.Lys1177Ter)	Likely pathogenic	no assertion criteria provided	7	117267636	na	na
+68438	NM_000492.4(CFTR):c.3546C>G (p.Tyr1182Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117267653	na	na
+68439	NM_000492.4(CFTR):c.3556C>T (p.Gln1186Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117267663	na	na
+68447	NM_000492.4(CFTR):c.3612G>A (p.Trp1204Ter)	Pathogenic	reviewed by expert panel	7	117267719	na	na
+68448	NM_000492.4(CFTR):c.3617C>A (p.Ser1206Ter)	Pathogenic	criteria provided, single submitter	7	117267724	na	na
+68449	NM_000492.4(CFTR):c.3617C>G (p.Ser1206Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117267724	na	na
+68472	NM_000492.4(CFTR):c.3761T>G (p.Leu1254Ter)	Pathogenic	reviewed by expert panel	7	117282535	na	na
+68482	NM_000492.4(CFTR):c.380T>G (p.Leu127Ter)	not provided	no classification provided	7	117171059	na	na
+68484	NM_000492.4(CFTR):c.3822G>A (p.Trp1274Ter)	Pathogenic	reviewed by expert panel	7	117282596	na	na
+68486	NM_000492.4(CFTR):c.3841C>T (p.Gln1281Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117282615	na	na
+68493	NM_000492.4(CFTR):c.3871C>T (p.Gln1291Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117282645	na	na
+68520	NM_000492.4(CFTR):c.3921T>A (p.Tyr1307Ter)	not provided	no classification provided	7	117292943	na	na
+68521	NM_000492.4(CFTR):c.3922G>T (p.Glu1308Ter)	Pathogenic	criteria provided, single submitter	7	117292944	na	na
+68523	NM_000492.4(CFTR):c.3929G>A (p.Trp1310Ter)	Pathogenic	reviewed by expert panel	7	117292951	na	na
+68555	NM_000492.4(CFTR):c.40A>T (p.Lys14Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117120188	na	na
+68558	NM_000492.4(CFTR):c.4111G>T (p.Glu1371Ter)	Pathogenic	reviewed by expert panel	7	117304889	na	na
+68568	NM_000492.4(CFTR):c.4143C>A (p.Tyr1381Ter)	not provided	no classification provided	7	117305519	na	na
+68569	NM_000492.4(CFTR):c.4144C>T (p.Gln1382Ter)	Pathogenic	reviewed by expert panel	7	117305520	na	na
+68575	NM_000492.4(CFTR):c.4168C>T (p.Gln1390Ter)	Pathogenic	criteria provided, single submitter	7	117305544	na	na
+68586	NM_000492.4(CFTR):c.4201G>T (p.Glu1401Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117305577	na	na
+68592	NM_000492.4(CFTR):c.4231C>T (p.Gln1411Ter)	Pathogenic	reviewed by expert panel	7	117305607	na	na
+68593	NM_000492.4(CFTR):c.4234C>T (p.Gln1412Ter)	Pathogenic	reviewed by expert panel	7	117305610	na	na
+68601	NM_000492.4(CFTR):c.4252G>T (p.Glu1418Ter)	Pathogenic	criteria provided, single submitter	7	117306971	na	na
+68613	NM_000492.4(CFTR):c.4417G>T (p.Glu1473Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117307136	na	na
+68614	NM_000492.4(CFTR):c.4426C>T (p.Gln1476Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117307145	na	na
+68621	NM_000492.4(CFTR):c.451C>T (p.Gln151Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117171130	na	na
+68647	NM_000492.4(CFTR):c.4C>T (p.Gln2Ter)	Pathogenic	reviewed by expert panel	7	117120152	na	na
+68674	NM_000492.4(CFTR):c.577G>T (p.Glu193Ter)	Pathogenic	reviewed by expert panel	7	117174417	na	na
+68691	NM_000492.4(CFTR):c.606G>A (p.Trp202Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117175328	na	na
+68696	NM_000492.4(CFTR):c.619C>T (p.Gln207Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117175341	na	na
+68700	NM_000492.4(CFTR):c.647G>A (p.Trp216Ter)	Pathogenic	reviewed by expert panel	7	117175369	na	na
+68702	NM_000492.4(CFTR):c.653T>A (p.Leu218Ter)	Pathogenic	reviewed by expert panel	7	117175375	na	na
+68703	NM_000492.4(CFTR):c.658C>T (p.Gln220Ter)	Pathogenic	reviewed by expert panel	7	117175380	na	na
+68706	NM_000492.4(CFTR):c.675T>A (p.Cys225Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117175397	na	na
+68717	NM_000492.4(CFTR):c.741C>G (p.Tyr247Ter)	not provided	no classification provided	7	117175463	na	na
+68728	NM_000492.4(CFTR):c.79G>T (p.Gly27Ter)	Pathogenic	reviewed by expert panel	7	117144332	na	na
+68731	NM_000492.4(CFTR):c.828C>A (p.Cys276Ter)	Pathogenic	reviewed by expert panel	7	117176686	na	na
+68741	NM_000492.4(CFTR):c.868C>T (p.Gln290Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117176726	na	na
+68748	NM_000492.4(CFTR):c.88C>T (p.Gln30Ter)	Pathogenic	reviewed by expert panel	7	117144341	na	na
+68750	NM_000492.4(CFTR):c.912C>G (p.Tyr304Ter)	Pathogenic	criteria provided, single submitter	7	117180196	na	na
+68759	NM_000492.4(CFTR):c.959T>A (p.Leu320Ter)	Pathogenic	criteria provided, single submitter	7	117180243	na	na
+171722	NM_000492.4(CFTR):c.830G>A (p.Trp277Ter)	Pathogenic	criteria provided, single submitter	7	117176688	na	na
+171724	NM_000492.4(CFTR):c.2443G>T (p.Glu815Ter)	Pathogenic	no assertion criteria provided	7	117232664	na	na
+205620	NM_000492.4(CFTR):c.3294G>A (p.Trp1098Ter)	Pathogenic	reviewed by expert panel	7	117251789	na	na
+274553	NM_000492.4(CFTR):c.4387C>T (p.Gln1463Ter)	Conflicting classifications of pathogenicity	criteria provided, conflicting classifications	7	117307106	na	na
+357562	NM_000492.4(CFTR):c.56G>A (p.Trp19Ter)	Pathogenic	criteria provided, single submitter	7	117144309	na	na
+357565	NM_000492.4(CFTR):c.865A>T (p.Arg289Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117176723	na	na
+357577	NM_000492.4(CFTR):c.3533C>A (p.Ser1178Ter)	Likely pathogenic	no assertion criteria provided	7	117267640	na	na
+357583	NM_000492.4(CFTR):c.4143C>G (p.Tyr1381Ter)	Pathogenic	criteria provided, single submitter	7	117305519	na	na
+357584	NM_000492.4(CFTR):c.4272C>G (p.Tyr1424Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117306991	na	na
+362284	NM_000492.4(CFTR):c.3276C>R (p.Tyr1092Ter)	Pathogenic	no assertion criteria provided	7	117251771	na	na
+480433	NM_000492.4(CFTR):c.57G>A (p.Trp19Ter)	Pathogenic	reviewed by expert panel	7	117144310	na	na
+480453	NM_000492.4(CFTR):c.3988C>T (p.Gln1330Ter)	Pathogenic	reviewed by expert panel	7	117304766	na	na
+485739	NM_000492.4(CFTR):c.1141A>T (p.Lys381Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117182094	na	na
+487125	NM_000492.4(CFTR):c.1219G>T (p.Glu407Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117188704	na	na
+544131	NM_000492.4(CFTR):c.445G>T (p.Gly149Ter)	Likely pathogenic	no assertion criteria provided	7	117171124	na	na
+544150	NM_000492.4(CFTR):c.835G>T (p.Glu279Ter)	Likely pathogenic	no assertion criteria provided	7	117176693	na	na
+544156	NM_000492.4(CFTR):c.1301C>G (p.Ser434Ter)	Pathogenic	reviewed by expert panel	7	117188786	na	na
+544223	NM_000492.4(CFTR):c.4297G>T (p.Glu1433Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117307016	na	na
+544496	NM_000492.4(CFTR):c.4272C>A (p.Tyr1424Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117306991	na	na
+544516	NM_000492.4(CFTR):c.4364C>A (p.Ser1455Ter)	Likely pathogenic	no assertion criteria provided	7	117307083	na	na
+544569	NM_000492.4(CFTR):c.2395C>T (p.Gln799Ter)	Likely pathogenic	no assertion criteria provided	7	117232616	na	na
+610296	NM_000492.4(CFTR):c.166G>T (p.Glu56Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117149089	na	na
+610318	NM_000492.4(CFTR):c.1126C>T (p.Gln376Ter)	Pathogenic	criteria provided, single submitter	7	117182079	na	na
+610320	NM_000492.4(CFTR):c.1301C>A (p.Ser434Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117188786	na	na
+610332	NM_000492.4(CFTR):c.1936G>T (p.Gly646Ter)	Pathogenic	criteria provided, single submitter	7	117232157	na	na
+610337	NM_000492.4(CFTR):c.2476G>T (p.Glu826Ter)	Pathogenic	criteria provided, single submitter	7	117232697	na	na
+610341	NM_000492.4(CFTR):c.3032T>G (p.Leu1011Ter)	Pathogenic	criteria provided, single submitter	7	117250616	na	na
+610343	NM_000492.4(CFTR):c.3110C>A (p.Ser1037Ter)	Pathogenic	criteria provided, single submitter	7	117250694	na	na
+610347	NM_000492.4(CFTR):c.3188G>A (p.Trp1063Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117251683	na	na
+610355	NM_000492.4(CFTR):c.3728T>A (p.Leu1243Ter)	Pathogenic	criteria provided, single submitter	7	117282502	na	na
+610358	NM_000492.4(CFTR):c.3925C>T (p.Gln1309Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117292947	na	na
+621235	NM_000492.4(CFTR):c.1979C>G (p.Ser660Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117232200	na	na
+635542	NM_000492.4(CFTR):c.1324A>T (p.Lys442Ter)	Pathogenic	criteria provided, single submitter	7	117188809	na	na
+635551	NM_000492.4(CFTR):c.2757C>G (p.Tyr919Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117243685	na	na
+681854	NM_000492.4(CFTR):c.2600T>G (p.Leu867Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117235093	na	na
+789471	NM_000492.4(CFTR):c.892A>T (p.Lys298Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117180176	na	na
+790684	NM_000492.4(CFTR):c.863T>G (p.Leu288Ter)	Pathogenic	criteria provided, single submitter	7	117176721	na	na
+790689	NM_000492.4(CFTR):c.4225G>T (p.Glu1409Ter)	Pathogenic	criteria provided, single submitter	7	117305601	na	na
+799488	NM_000492.4(CFTR):c.2428A>T (p.Arg810Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117232649	na	na
+801647	NM_000492.4(CFTR):c.253G>T (p.Gly85Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117149176	na	na
+801649	NM_000492.4(CFTR):c.3796G>T (p.Glu1266Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117282570	na	na
+806299	NM_000492.4(CFTR):c.808C>T (p.Gln270Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117176666	na	na
+806300	NM_000492.4(CFTR):c.874G>T (p.Glu292Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117180158	na	na
+806307	NM_000492.4(CFTR):c.2065C>T (p.Gln689Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117232286	na	na
+806308	NM_000492.4(CFTR):c.2299C>T (p.Gln767Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117232520	na	na
+806312	NM_000492.4(CFTR):c.2556T>G (p.Tyr852Ter)	Pathogenic	criteria provided, single submitter	7	117235049	na	na
+806318	NM_000492.4(CFTR):c.3838C>T (p.Gln1280Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117282612	na	na
+806319	NM_000492.4(CFTR):c.4051A>T (p.Lys1351Ter)	Pathogenic	criteria provided, single submitter	7	117304829	na	na
+832890	NM_000492.4(CFTR):c.3404T>A (p.Leu1135Ter)	Pathogenic	criteria provided, single submitter	7	117254703	na	na
+933610	NM_000492.4(CFTR):c.3859G>T (p.Gly1287Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117282633	na	na
+945349	NM_000492.4(CFTR):c.1420G>T (p.Glu474Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117199545	na	na
+962158	NM_000492.4(CFTR):c.1150G>T (p.Glu384Ter)	Likely pathogenic	criteria provided, single submitter	7	117182103	na	na
+971981	NM_000492.4(CFTR):c.269T>A (p.Leu90Ter)	Likely pathogenic	criteria provided, single submitter	7	117149192	na	na
+971982	NM_000492.4(CFTR):c.741C>A (p.Tyr247Ter)	Likely pathogenic	criteria provided, single submitter	7	117175463	na	na
+971983	NM_000492.4(CFTR):c.742A>T (p.Arg248Ter)	Likely pathogenic	criteria provided, single submitter	7	117175464	na	na
+971984	NM_000492.4(CFTR):c.751A>T (p.Arg251Ter)	Likely pathogenic	criteria provided, single submitter	7	117176609	na	na
+971985	NM_000492.4(CFTR):c.817A>T (p.Lys273Ter)	Likely pathogenic	criteria provided, single submitter	7	117176675	na	na
+971986	NM_000492.4(CFTR):c.1447A>T (p.Lys483Ter)	Likely pathogenic	criteria provided, single submitter	7	117199572	na	na
+971987	NM_000492.4(CFTR):c.1488G>A (p.Trp496Ter)	Likely pathogenic	criteria provided, single submitter	7	117199613	na	na
+971988	NM_000492.4(CFTR):c.1540G>T (p.Glu514Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117199665	na	na
+971989	NM_000492.4(CFTR):c.1731C>A (p.Tyr577Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117230458	na	na
+971990	NM_000492.4(CFTR):c.1861G>T (p.Glu621Ter)	Likely pathogenic	criteria provided, single submitter	7	117232082	na	na
+971991	NM_000492.4(CFTR):c.1969A>T (p.Arg657Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117232190	na	na
+971992	NM_000492.4(CFTR):c.1997T>A (p.Leu666Ter)	Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117232218	na	na
+971993	NM_000492.4(CFTR):c.2410G>T (p.Glu804Ter)	Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117232631	na	na
+971994	NM_000492.4(CFTR):c.2426C>A (p.Ser809Ter)	Likely pathogenic	criteria provided, single submitter	7	117232647	na	na
+971995	NM_000492.4(CFTR):c.2617G>T (p.Glu873Ter)	Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117235110	na	na
+971996	NM_000492.4(CFTR):c.2646G>A (p.Trp882Ter)	Likely pathogenic	criteria provided, single submitter	7	117242906	na	na
+971997	NM_000492.4(CFTR):c.3267G>A (p.Trp1089Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117251762	na	na
+971998	NM_000492.4(CFTR):c.3587C>A (p.Ser1196Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117267694	na	na
+971999	NM_000492.4(CFTR):c.3682G>T (p.Glu1228Ter)	Likely pathogenic	criteria provided, single submitter	7	117267789	na	na
+972000	NM_000492.4(CFTR):c.3845G>A (p.Trp1282Ter)	Likely pathogenic	criteria provided, single submitter	7	117282619	na	na
+972001	NM_000492.4(CFTR):c.3949A>T (p.Lys1317Ter)	Likely pathogenic	criteria provided, single submitter	7	117292971	na	na
+972002	NM_000492.4(CFTR):c.4054C>T (p.Gln1352Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117304832	na	na
+975790	NM_000492.4(CFTR):c.2455G>T (p.Glu819Ter)	Likely pathogenic	criteria provided, single submitter	7	117232676	na	na
+1053873	NM_000492.4(CFTR):c.327T>G (p.Tyr109Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117171006	na	na
+1166576	NM_000492.4(CFTR):c.1132C>T (p.Gln378Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117182085	na	na
+1174964	NM_000492.4(CFTR):c.2335C>T (p.Gln779Ter)	Pathogenic	criteria provided, single submitter	7	117232556	na	na
+1321080	NM_000492.4(CFTR):c.580G>T (p.Gly194Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117175302	na	na
+1378971	NM_000492.4(CFTR):c.831G>A (p.Trp277Ter)	Pathogenic	criteria provided, single submitter	7	117176689	na	na
+1421055	NM_000492.4(CFTR):c.307G>T (p.Gly103Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117170986	na	na
+1431798	NM_000492.4(CFTR):c.2012T>A (p.Leu671Ter)	Pathogenic	criteria provided, single submitter	7	117232233	na	na
+1440640	NM_000492.4(CFTR):c.2872C>T (p.Gln958Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117243800	na	na
+1493271	NM_000492.4(CFTR):c.503C>G (p.Ser168Ter)	Pathogenic	criteria provided, single submitter	7	117174343	na	na
+1668753	NM_000492.4(CFTR):c.1551C>G (p.Tyr517Ter)	Pathogenic	criteria provided, single submitter	7	117199676	na	na
+1669792	NM_000492.4(CFTR):c.2757C>A (p.Tyr919Ter)	Likely pathogenic	criteria provided, single submitter	7	117243685	na	na
+1697466	NM_000492.4(CFTR):c.769G>T (p.Glu257Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117176627	na	na
+1698938	NM_000492.4(CFTR):c.844G>T (p.Glu282Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117176702	na	na
+1704325	NM_000492.4(CFTR):c.2739T>G (p.Tyr913Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117243667	na	na
+1704341	NM_000492.4(CFTR):c.97G>T (p.Glu33Ter)	Likely pathogenic	criteria provided, single submitter	7	117144350	na	na
+1704369	NM_000492.4(CFTR):c.535C>T (p.Gln179Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117174375	na	na
+1704371	NM_000492.4(CFTR):c.71T>A (p.Leu24Ter)	Likely pathogenic	criteria provided, single submitter	7	117144324	na	na
+1704372	NM_000492.4(CFTR):c.748C>T (p.Gln250Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117176606	na	na
+1704378	NM_000492.4(CFTR):c.3930G>A (p.Trp1310Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117292952	na	na
+1704380	NM_000492.4(CFTR):c.1762G>T (p.Glu588Ter)	Pathogenic	criteria provided, single submitter	7	117230489	na	na
+1781433	NM_000492.4(CFTR):c.4032T>A (p.Cys1344Ter)	Likely pathogenic	criteria provided, single submitter	7	117304810	na	na
+1782271	NM_000492.4(CFTR):c.1673T>A (p.Leu558Ter)	Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117227881	na	na
+1782769	NM_000492.4(CFTR):c.3547A>T (p.Lys1183Ter)	Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117267654	na	na
+1782782	NM_000492.4(CFTR):c.3428T>A (p.Leu1143Ter)	Likely pathogenic	criteria provided, single submitter	7	117254727	na	na
+1783402	NM_000492.4(CFTR):c.3793G>T (p.Gly1265Ter)	Likely pathogenic	criteria provided, single submitter	7	117282567	na	na
+1783733	NM_000492.4(CFTR):c.1663A>T (p.Arg555Ter)	Likely pathogenic	criteria provided, single submitter	7	117227871	na	na
+1784143	NM_000492.4(CFTR):c.3836T>A (p.Leu1279Ter)	Likely pathogenic	criteria provided, single submitter	7	117282610	na	na
+1784353	NM_000492.4(CFTR):c.283A>T (p.Lys95Ter)	Likely pathogenic	criteria provided, single submitter	7	117170962	na	na
+1784417	NM_000492.4(CFTR):c.617T>A (p.Leu206Ter)	Likely pathogenic	criteria provided, single submitter	7	117175339	na	na
+1795777	NM_000492.4(CFTR):c.3434G>A (p.Trp1145Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117254733	na	na
+1855788	NM_000492.4(CFTR):c.2885C>A (p.Ser962Ter)	Pathogenic	criteria provided, multiple submitters, no conflicts	7	117243813	na	na
+1868069	NM_000492.4(CFTR):c.1689C>A (p.Tyr563Ter)	Pathogenic	criteria provided, single submitter	7	117230416	na	na
+1868074	NM_000492.4(CFTR):c.3743C>G (p.Ser1248Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117282517	na	na
+1984414	NM_000492.4(CFTR):c.2742T>G (p.Tyr914Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117243670	na	na
+2056730	NM_000492.4(CFTR):c.2213T>G (p.Leu738Ter)	Pathogenic	criteria provided, single submitter	7	117232434	na	na
+2057951	NM_000492.4(CFTR):c.154A>T (p.Lys52Ter)	Pathogenic	criteria provided, single submitter	7	117144407	na	na
+2179351	NM_000492.4(CFTR):c.4230C>A (p.Cys1410Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117305606	na	na
+2668837	NM_000492.4(CFTR):c.4408G>T (p.Glu1470Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117307127	na	na
+2738372	NM_000492.4(CFTR):c.1709T>A (p.Leu570Ter)	Pathogenic	criteria provided, single submitter	7	117230436	na	na
+2794942	NM_000492.4(CFTR):c.1140T>A (p.Tyr380Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117182093	na	na
+2823129	NM_000492.4(CFTR):c.1941T>A (p.Cys647Ter)	Pathogenic	criteria provided, single submitter	7	117232162	na	na
+2831633	NM_000492.4(CFTR):c.1579G>T (p.Glu527Ter)	Likely pathogenic	criteria provided, single submitter	7	117199704	na	na
+2836974	NM_000492.4(CFTR):c.1067G>A (p.Trp356Ter)	Likely pathogenic	criteria provided, single submitter	7	117180351	na	na
+2839093	NM_000492.4(CFTR):c.1351G>T (p.Gly451Ter)	Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117188836	na	na
+2839096	NM_000492.4(CFTR):c.3904A>T (p.Lys1302Ter)	Pathogenic	criteria provided, single submitter	7	117292926	na	na
+2843506	NM_000492.4(CFTR):c.2486T>A (p.Leu829Ter)	Pathogenic	criteria provided, single submitter	7	117232707	na	na
+2855765	NM_000492.4(CFTR):c.1155T>A (p.Tyr385Ter)	Pathogenic	criteria provided, single submitter	7	117182108	na	na
+2904993	NM_000492.4(CFTR):c.3739G>T (p.Gly1247Ter)	Pathogenic	criteria provided, single submitter	7	117282513	na	na
+3015152	NM_000492.4(CFTR):c.4315C>T (p.Gln1439Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117307034	na	na
+3025532	NM_000492.4(CFTR):c.3281C>G (p.Ser1094Ter)	Pathogenic	criteria provided, single submitter	7	117251776	na	na
+3235202	NM_000492.4(CFTR):c.3546C>A (p.Tyr1182Ter)	Likely pathogenic	criteria provided, single submitter	7	117267653	na	na
+3410338	NM_000492.4(CFTR):c.3136G>T (p.Glu1046Ter)	Pathogenic	criteria provided, single submitter	7	117250720	na	na
+3498372	NM_000492.4(CFTR):c.1114C>T (p.Gln372Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117180398	na	na
+3718803	NM_000492.4(CFTR):c.648G>A (p.Trp216Ter)	Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117175370	na	na
+3718813	NM_000492.4(CFTR):c.2041G>T (p.Glu681Ter)	Likely pathogenic	criteria provided, single submitter	7	117232262	na	na
+3718820	NM_000492.4(CFTR):c.3223G>T (p.Glu1075Ter)	Likely pathogenic	criteria provided, single submitter	7	117251718	na	na
+3718822	NM_000492.4(CFTR):c.3373G>T (p.Gly1125Ter)	Likely pathogenic	criteria provided, single submitter	7	117254672	na	na
+3742052	NM_000492.4(CFTR):c.3940G>T (p.Glu1314Ter)	Pathogenic	criteria provided, single submitter	7	117292962	na	na
+3762589	NM_000492.4(CFTR):c.1204G>T (p.Glu402Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117182157	na	na
+3885689	NM_000492.4(CFTR):c.1345G>T (p.Glu449Ter)	Pathogenic	criteria provided, single submitter	7	117188830	na	na
+3940598	NM_000492.4(CFTR):c.1954C>T (p.Gln652Ter)	Pathogenic	criteria provided, single submitter	7	117232175	na	na
+4023058	NM_000492.4(CFTR):c.568A>T (p.Lys190Ter)	Pathogenic	criteria provided, single submitter	7	117174408	na	na
+4178990	NM_000492.4(CFTR):c.1731C>G (p.Tyr577Ter)	Pathogenic	criteria provided, single submitter	7	117230458	na	na
+4179001	NM_000492.4(CFTR):c.3493A>T (p.Lys1165Ter)	Pathogenic	criteria provided, single submitter	7	117267600	na	na
+4179026	NM_000492.4(CFTR):c.237G>A (p.Trp79Ter)	Pathogenic	criteria provided, single submitter	7	117149160	na	na
+4179047	NM_000492.4(CFTR):c.252T>A (p.Tyr84Ter)	Pathogenic	criteria provided, single submitter	7	117149175	na	na
+4179062	NM_000492.4(CFTR):c.85A>T (p.Arg29Ter)	Likely pathogenic	criteria provided, single submitter	7	117144338	na	na
+4406982	NM_000492.4(CFTR):c.1022C>A (p.Ser341Ter)	Likely pathogenic	criteria provided, single submitter	7	117180306	na	na
+4436962	NM_000492.4(CFTR):c.3367G>T (p.Gly1123Ter)	-	-	7	117251862	na	na
+4647399	NM_000492.4(CFTR):c.709C>T (p.Gln237Ter)	Pathogenic/Likely pathogenic	criteria provided, multiple submitters, no conflicts	7	117175431	na	na
+4907860	NM_000492.4(CFTR):c.938C>G (p.Ser313Ter)	Pathogenic	criteria provided, single submitter	7	117180222	na	na
+4927577	NM_000492.4(CFTR):c.1075C>T (p.Gln359Ter)	Pathogenic	criteria provided, single submitter	7	117180359	na	na
+4927578	NM_000492.4(CFTR):c.1083G>A (p.Trp361Ter)	Pathogenic	criteria provided, single submitter	7	117180367	na	na
+4927593	NM_000492.4(CFTR):c.1536T>A (p.Tyr512Ter)	Likely pathogenic	criteria provided, single submitter	7	117199661	na	na
+4927598	NM_000492.4(CFTR):c.1712T>G (p.Leu571Ter)	Likely pathogenic	criteria provided, single submitter	7	117230439	na	na
+4927603	NM_000492.4(CFTR):c.188C>G (p.Ser63Ter)	Likely pathogenic	criteria provided, single submitter	7	117149111	na	na
+4927611	NM_000492.4(CFTR):c.2037G>A (p.Trp679Ter)	Likely pathogenic	criteria provided, single submitter	7	117232258	na	na
+4927612	NM_000492.4(CFTR):c.2062A>T (p.Lys688Ter)	Pathogenic	criteria provided, single submitter	7	117232283	na	na
+4927613	NM_000492.4(CFTR):c.2236G>T (p.Glu746Ter)	Likely pathogenic	criteria provided, single submitter	7	117232457	na	na
+4927615	NM_000492.4(CFTR):c.2284C>T (p.Gln762Ter)	Likely pathogenic	criteria provided, single submitter	7	117232505	na	na
+4927618	NM_000492.4(CFTR):c.2435T>G (p.Leu812Ter)	Likely pathogenic	criteria provided, single submitter	7	117232656	na	na
+4927632	NM_000492.4(CFTR):c.2761G>T (p.Gly921Ter)	Likely pathogenic	criteria provided, single submitter	7	117243689	na	na
+4927642	NM_000492.4(CFTR):c.3112C>T (p.Gln1038Ter)	Pathogenic	criteria provided, single submitter	7	117250696	na	na
+4927645	NM_000492.4(CFTR):c.3181G>T (p.Gly1061Ter)	Likely pathogenic	criteria provided, single submitter	7	117251676	na	na
+4927661	NM_000492.4(CFTR):c.3827C>G (p.Ser1276Ter)	Likely pathogenic	criteria provided, single submitter	7	117282601	na	na
+4927673	NM_000492.4(CFTR):c.4267C>T (p.Gln1423Ter)	Likely pathogenic	criteria provided, single submitter	7	117306986	na	na
+4927685	NM_000492.4(CFTR):c.605G>A (p.Trp202Ter)	Pathogenic	criteria provided, single submitter	7	117175327	na	na
