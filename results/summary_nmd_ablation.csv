@@ -1,0 +1,5 @@
+split,model,spearman_mean,rmse_log_mean
+cftr_holdout,mt_hgb,0.621,0.165
+cftr_holdout,mt_hgb+NMD,0.635,0.163
+genegroup5,mt_hgb,0.713,0.145
+genegroup5,mt_hgb+NMD,0.711,0.145

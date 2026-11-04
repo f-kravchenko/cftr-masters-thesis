@@ -1,0 +1,4 @@
+comparison,n,spearman,pearson_log
+model_enet_fold_vs_Mangk_fold,13,0.478,0.548
+model_mthgb_fold_vs_Mangk_fold,13,0.555,0.547
+experiment_Toledano_fold_vs_Mangk_fold,13,0.786,0.709
