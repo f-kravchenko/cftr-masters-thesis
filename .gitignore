@@ -3,3 +3,6 @@ toledano_data/*.rds
 .venv-ts/
 external/mangkalaphiban/AG_readthrough.zip
 data/gencode47.gtf.gz
+data/ucsc/*.bb
+data/ucsc/*.bw
+NMDetectiveAI/
