@@ -1,0 +1,12 @@
+split,model,drug,n,r2_their,mae_their,spearman
+their_test,transstop_pretrained,ALL,4839,0.9398387423914503,0.14288157739842305,0.9653695260875679
+cftr_all,transstop_pretrained,ALL,692,0.9612142347495011,0.09504828786880426,0.9732322948655147
+cftr_perdrug,transstop_pretrained,CC90009,76,,,0.8986739576213261
+cftr_perdrug,transstop_pretrained,Clitocine,69,,,0.9470222871757401
+cftr_perdrug,transstop_pretrained,DAP,70,,,0.9474061761875601
+cftr_perdrug,transstop_pretrained,FUr,82,,,0.49497719876797164
+cftr_perdrug,transstop_pretrained,G418,77,,,0.941321836058678
+cftr_perdrug,transstop_pretrained,Gentamicin,77,,,0.48154477101845516
+cftr_perdrug,transstop_pretrained,SJ6986,79,,,0.9693037974683545
+cftr_perdrug,transstop_pretrained,SRI,79,,,0.9668208373904577
+cftr_topdrug,transstop_pretrained,top1,56,,,0.7142857142857143

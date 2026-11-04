@@ -1,3 +1,6 @@
 [submodule "Stop_codon_readthrough"]
 	path = Stop_codon_readthrough
 	url = https://github.com/lehner-lab/Stop_codon_readthrough
+[submodule "TransStop"]
+	path = TransStop
+	url = https://github.com/Dichopsis/TransStop
