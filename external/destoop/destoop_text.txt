@@ -1,0 +1,659 @@
+1 
+ 
+A functional comparison of readthrough agent ELX-02 across a wide range of nonsense 1 
+CFTR variants 2 
+Marlies Destoop1, Anabela S. Ramalho2, Iris A. L. Silva3#, Annelotte M. V onk4, Sylvia Suen4, 3 
+Marlou C. Bierlaagh 1, Sylvia F. Boj 5, Robert G. J. Vries 5,  Jeffrey M. Beekman, 4, Kris De 4 
+Boeck6, Cornelis K. van der Ent 1, Margarida D. Amaral 3,*, Francois Vermeulen 2,6,*, Sacha 5 
+Spelier4,*,@, on behalf of the HIT-CF Organoid Study Group 6 
+Affiliations 7 
+* Shared 8 
+@ Corresponding author 9 
+1. Department of Pediatrics, Pediatric Pulmonology , Wilhelmina Children's Hospital, University Medical Center Utrecht, 10 
+UMC Utrecht, Lundlaan 6, 3584 EA Utrecht, The Netherlands 11 
+2. CF research lab, W oman and Child Unit, Department of Development and Regeneration, KU Leuven, Herestraat 49, 3000 12 
+Leuven, Belgium 13 
+3. BioISI – Biosystems & Integrative Sciences Institute, Faculty of Sciences, University of Lisboa, Campo Grande C8 bdg, 14 
+1749-016, Lisboa, Portugal 15 
+4. Lab of Cellular Disease Models, Department of Pediatrics, Regenerative Medicine Center Utrecht, UMC Utrecht, 16 
+Uppsalalaan 8, 3584 CT Utrecht, The Netherlands 17 
+5. HUB Organoids B.V. (HUB), Yalelaan 62, 3584 CM Utrecht, the Netherlands. 18 
+6. Department of Pediatrics, Pediatric Pulmonology, UZ Leuven, Herestraat 49, 3000 Leuven  19 
+# Current address: S2AQUA—Collaborative Laboratory , Association for a Sustainable and Smart Aquaculture, Avenida 20 
+ParqueNatural da Ria Formosa s/n, 8700-194 Olhão, Portugal. 21 
+ 22 
+Abstract 23 
+Background: Nonsense variants in CFTR account for ~10% of cystic fibrosis (CF) variants 24 
+and cannot be treated with approved CFTR modulators. Translational readthrough agents such 25 
+as ELX-02 offer a potential therapeutic strategy, but clinical trials evaluated mainly in G542X 26 
+CFTR nonsense variant and underlined limited efficacy. This study aimed to evaluate ELX-27 
+02-mediated CFTR rescue across a broad range of nonsense variants using patient-derived 28 
+intestinal organoids (PDIOs) to define variant-specific determinants of readthrough efficacy 29 
+and assess its potential across a genetically diverse CF population. 30 
+Method: The ex vivo response to ELX-02 was assessed in 206 PDIOs carrying heterogeneous 31 
+nonsense variants. CFTR function was quantified using forskolin-induced swelling (FIS) 32 
+assay after 48-hour exposure to ELX-02. Responses were analysed by genotype and stop 33 
+codon identity, with secondary validation performed in a selected subset of PDIOs (n = 60). 34 
+Results: ELX-02–mediated CFTR rescue varied markedly, ranging from responses 35 
+approaching those observed with approved CFTR modulators (LUM/IVA) to responses at or 36 
+below detection limit. Overall, maximal responses were modest and at the lower end of the 37 
+functional range for CFTR modulators. Rescue was dose-dependent and higher in PDIOs 38 
+carrying two nonsense variants when compared with PDIOs carrying a single nonsense 39 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+2 
+ 
+variant combined with a residual or minimal function variant. Nonsense variants in 40 
+nucleotide-binding domain 1, including G542X, S466X, G550X and R553X, showed 41 
+relatively higher responsiveness.  42 
+Conclusion: ELX-02 induces limited and highly heterogeneous CFTR rescue across nonsense 43 
+variants. PDIO-based functional screening provides a framework to guide patient selection 44 
+and stratification for future readthrough therapy trials. 45 
+Keywords 46 
+Premature termination codon; Readthrough therapy; ELX-02, Patient-derived intestinal 47 
+organoids, Forskolin-induced swelling assay  48 
+Introduction 49 
+Cystic fibrosis (CF) is a life-limiting autosomal recessive disorder caused by variants in the 50 
+CFTR gene, resulting in defective chloride and bicarbonate transport and progressive 51 
+multiorgan disease, particularly affecting the lungs and gastrointestinal tract (1). Among the 52 
+more than 2000 described CFTR variants, nonsense variants introduce premature termination 53 
+codons (PTCs), which lead to truncated, non-functional proteins and often trigger degradation 54 
+of the corresponding mRNAs via nonsense-mediated mRNA decay (NMD) (2-4). Nonsense 55 
+variants account for 8.4% of all CF-causing CFTR alleles worldwide 56 
+(http://www.genet.sickkids.on.ca/). The subset of people with CF (pwCF) homozygous for a 57 
+nonsense variant or in trans with another class I variant are ineligible for currently approved 58 
+CFTR modulators, which primarily target gating or processing defects of the protein. 59 
+One promising therapeutic approach for this underserved population involves translational 60 
+readthrough agents (5). These compounds act by modulating ribosomal fidelity at the PTC 61 
+site, enabling the incorporation of amino acids (AA) at the site of the PTC and allowing 62 
+translation to continue to the normal termination codon (NTC), ultimately producing full-63 
+length CFTR protein. Mechanistically, different classes of readthrough agents can act through 64 
+distinct pathways. Aminoglycosides, for example, transiently slow ribosomal translocation 65 
+and promote mispairing at the nonsense site, whereas more recent compounds, such as di-2,6-66 
+aminopurine (DAP), target tRNA-modifying enzymes to facilitate the selective incorporation 67 
+of cognate AA at the nonsense site (6-9). In all cases, readthrough efficacy is influenced by 68 
+the identity of the stop codon, the surrounding nucleotide context, and the location of the 69 
+nonsense within the transcript (10). 70 
+Despite their promise, no readthrough agent has yet demonstrated clinical efficacy for pwCF. 71 
+Ataluren, the furthest developed for Duchenne muscular dystrophy, failed to show robust 72 
+improvement in large scale CF clinical trials (11, 12). Similarly, ELX-02, a chemically 73 
+engineered aminoglycoside that reached the furthest stage in CF-specific clinical 74 
+development, has so far only been tested in a small cohort of patients carrying the G542X 75 
+variant, either alone or in combination with the CFTR potentiator ivacaftor. Phase 2 trials 76 
+revealed limited functional and clinical benefit, which may at least partially be explained by 77 
+suboptimal pharmacodynamic properties, including low pulmonary drug concentrations (6, 78 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+3 
+ 
+13). These translational gaps underscore the challenges of developing readthrough therapies 79 
+and highlight the need for a deeper mechanistic understanding and broader preclinical 80 
+evaluation. 81 
+Patient-derived intestinal organoids (PDIOs) represent a powerful platform to bridge this 82 
+translational gap. PDIOs are three-dimensional cultures derived from adult stem cells isolated 83 
+from intestinal crypts, which recapitulate key features of the native epithelium, including cell 84 
+polarity, cell-type composition, and CFTR expression predominantly at the apical membrane 85 
+(14-16). Forskolin-induced swelling (FIS) of PDIOs provides a quantitative readout of CFTR-86 
+dependent fluid secretion, which correlates with clinical disease severity, progression, and 87 
+response to modulators (17, 18). As a result, PDIOs enable patient-specific and variant-88 
+specific preclinical assessment of therapeutic strategies, including readthrough compounds, 89 
+under physiologically relevant conditions (19, 20). Moreover, PDIOs can be expanded and 90 
+cryopreserved to create living biobanks that represent a wide spectrum of CFTR genotypes, 91 
+facilitating systematic evaluation of novel therapies (21, 22). 92 
+Here, we used PDIOs to systematically evaluate the ex vivo response to ELX-02 across a 93 
+broad set of CFTR nonsense variants. By expanding beyond the single G542X genotype 94 
+previously tested in clinical trials, we aimed to define variant-specific determinants of 95 
+readthrough efficacy and assess the potential of ELX-02 to rescue CFTR function across a 96 
+genetically diverse CF population. This study provides a comprehensive preclinical 97 
+framework to guide future development of readthrough therapies and improve patient 98 
+stratification for clinical trials. 99 
+Materials and Methods 100 
+PDIO Culture and Expansion 101 
+Within the HIT-CF project, 489 PDIOs from PwCF in 12 countries were collected in a central 102 
+biobank (23) for the HIT-CF Organoid Study (NTR7520). All participating clinical sites were 103 
+members of the clinical trial network of the European Cystic Fibrosis Society (ECFS-CTN). 104 
+This study and the accompanying informed consent form were approved by independent 105 
+ethics committees at each participating site, with final approval for use of all PDIOs by TcBio 106 
+(24-263). Written informed consent was obtained from each participant and/or the 107 
+participant's legal guardian. 108 
+PDIOs from patients carrying at least one CFTR nonsense variant were selected for the 109 
+present analysis. The selected samples were divided between the three European labs 110 
+participating in the HIT-CF European project (KULeuven, ULisboa and UMC Utrecht). 111 
+PDIOs were thawed and seeded in a 24-well plate with medium supplemented with Rho-112 
+associated kinase inhibitor (RhoKI) according to the previously published Standard Operating 113 
+Procedure (SOP) (15). Cultures were maintained at 37°C with 5% CO 2 and passaged weekly 114 
+to promote growth and budding. PDIO quality and morphology were monitored, and after at 115 
+least 3 weeks of expansion, cultures were used to perform the FIS assay. 116 
+Forskolin induced swelling assay 117 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+4 
+ 
+PDIO cultures were split mechanically every 7 days and after disruption replated at a density 118 
+of 20-50 PDIOs per 4 µL droplet in a 96-well plate, as previously described (15). Plates were 119 
+incubated at 37°C with 5% CO 2 for a maximum of 10 minutes before adding the respective 120 
+compound solutions. For each PDIO sample, two screens were performed, with each 121 
+experiment repeated in duplicate with two technical replicates. In the primary screen, media-122 
+only controls were compared to 80 µM ELX-02 and 160 µM ELX-02. In the secondary 123 
+screen, media-only controls were compared to 40 µM ELX-02, and 80 µM ELX-02. 124 
+After a 48-hour incubation period with or without ELX-02, PDIOs were stained with calcein 125 
+AM for 15-20 minutes to visually assess viability. Following the viability assessment, PDIOs 126 
+swelling was measured using the FIS assay. PDIOs swelling was stimulated by adding 127 
+forskolin at a single final concentration of 0.8 µM (no titration). Images were captured every 128 
+20 minutes for 120 minutes on a confocal microscope, yielding seven timepoints for analysis. 129 
+Total organoid area was calculated from the captured images by integrated imaging analysis 130 
+software (Zen from Zeiss). The raw area data for each timepoint and well were used to 131 
+calculate the Area Under the Curve (AUC) for normalized swelling over the 120-minute 132 
+experiment duration. To normalize for differences associated with sites, we characterized 133 
+ELX-02 mediated swelling of the same G542X/G542X PDIO line at the 3 sites; calculated the 134 
+mean and normalized all FIS data for the differences of this median at ELX-02 at a 135 
+concentration of 80 µM. The mean ELX-02 mediated swelling of the G542X/G542X lines 136 
+were used as a reference line throughout the figures.  137 
+Final dataset and study design 138 
+From the HIT-CF biobank, all PDIOs carrying at least one nonsense variant (n = 223) were 139 
+included in the initial selection for the primary screen. A total of 17 samples were excluded 140 
+afterwards for the following reasons: reference samples (G542X/G542X) (n = 6), ≥  1 141 
+unknown variant (n = 6), equivocal nonsense variants (G587X/G587X, R347X/R347X) (n = 142 
+2), less than 2 CF causing variants (M470V/Q1313X, M470V/W1282X) (n = 2), no nonsense 143 
+variant (n = 1). After these exclusions, results from 206 PDIOs were available and included in 144 
+the primary screen.  145 
+Based on the results in the primary screen, the highest responders were selected for a 146 
+subsequent validation screen (secondary screen). In total, 60 PDIOs were re-tested by HUB 147 
+Organoids: 57 PDIOs identified as top responders and 3 classified as non-responders for 148 
+negative control. Selection was stratified across three batches, corresponding to the three 149 
+participating screening laboratories. Sample selection for validation screen was performed by 150 
+a statistician at UMCU, who was blinded to genotype. Three additional criteria were applied: 151 
+1) exclusion of PDIOs allocated to the CHOICES clinical trial (part of the HIT-CF project) 152 
+evaluating diponecaftor (ClinicalTrials.gov NCT064685270; EudraCT 2022-500410-26-01); 153 
+2) exclusion of PDIOs with high residual CFTR function (>2500 AUC after forskolin only), 154 
+as these display limited additional drug-induced swelling; 3) inclusion of the highest 25% of 155 
+ELX-02 responders at 80 µM (residual function-corrected) at each site. 156 
+Statistics 157 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+5 
+ 
+To evaluate the functional response of each PDIO line to the tested compound solutions, area 158 
+under the curve (AUC) values were calculated using “R” software. To correct for residual 159 
+function (swelling induced by forskolin alone indicating partly functional CFTR), the 160 
+medium-only control was used in which swelling was measured with the presence of forskolin 161 
+but in the absence of ELX-02.  162 
+All subsequent statistical analyses were performed using SPSS software (version 30.0.0, 163 
+IBM). Group comparisons were conducted using Kruskal–Wallis tests, followed by 164 
+Bonferroni-corrected Mann–Whitney U tests for pairwise comparisons, as most variables 165 
+were not normally distributed. Paired responses across different ELX-02 concentrations were 166 
+compared using the Wilcoxon signed-rank test. Correlations were assessed using the 167 
+Spearman correlation coefficient. Enrichment of individual PTC variants among top-168 
+responding PDIOs was evaluated using 2×2 contingency tables, with odds ratios (ORs) and 169 
+95% confidence intervals calculated; significance was determined by Pearson Chi-square or 170 
+Fisher’s Exact Test for small expected counts (cells <5), based on observed counts. All tests 171 
+were two-sided, with statistical significance set at 0.05. No prior power analysis was 172 
+performed. Graphs were made using GraphPad Prism (version 10.6.1). 173 
+Results 174 
+Study and subject overview 175 
+In the primary screen, PDIOs from 206 subjects carrying at least one nonsense variant were 176 
+included. A full overview of the study design is provided in Figure 1A. Across this cohort, 48 177 
+distinct nonsense variants were analysed. Their positions within the CFTR mRNA are shown 178 
+in Figure 1B, underlining the inclusion of nonsense variants throughout the whole CFTR 179 
+gene. 180 
+All variants reported in this study were classified into three categories: 1) nonsense variants, 181 
+2) minimal function (MF) variants, 3) other variants. Classification proceeded as follows: first 182 
+all the nonsense variants according to the CFTR1 database nomenclature were assigned to the 183 
+nonsense category (http://www.genet.sickkids.on.ca/). Next, all remaining (non-nonsense) 184 
+variants were categorized according to the VX-445/TEZ/IV A eligibility list: variants 185 
+designated as minimal-function in this document were classified as MF (24), and all others 186 
+were categorized as “other”. An overview of this classification is provided in Figure 1C . 187 
+Based on these criteria, PDIOs were grouped into three genotype categories: 188 
+nonsense/nonsense (n = 62), nonsense/MF (n = 82), and nonsense/other (n = 62). Residual 189 
+CFTR function was assessed by FIS over 2 hours in the absence of ELX-02 as shown for each 190 
+PDIO in Figure 1D . Within the nonsense/MF group, one PDIO with genotype 191 
+G542X/R1066C displayed unexpectedly high residual function, representing a notable outlier. 192 
+Residual CFTR function differed significantly across the three genotype groups (H = 74.06, df 193 
+= 2, p < 0.001). No difference was observed between the nonsense/nonsense and 194 
+nonsense/MF groups, whereas the nonsense/other group exhibited higher residual function 195 
+than both the nonsense/nonsense and nonsense/MF groups, as shown in Figure 1E. 196 
+Genotype-dependent response to ELX-02 in PDIOs primary screen 197 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+6 
+ 
+We next set out to compare genotype-dependent responses to ELX-02. Figure 2A and 2B 198 
+show the residual function-corrected 0.8 µM FIS response to ELX-02 at 80 µM in PDIOs 199 
+belonging to the nonsense/nonsense and nonsense/MF genotype groups, respectively. Only 200 
+PDIOs with a response above 1384 AUC are shown, corresponding to the benchmark of the 201 
+mean response to ELX-02 at 80 µM in G542X-homozygous PDIOs. Responses below this 202 
+benchmark are considered not clinically relevant and are not shown in the figure. The residual 203 
+function-corrected 0.8 µM FIS response to ELX-02 at 80 µM in PDIOs belonging to the 204 
+nonsense/other genotype group is shown in Figure S2.  205 
+Within the nonsense/nonsense group (n = 62), one PDIO exhibited a response exceeding the 206 
+mean response to elexacaftor/tezacaftor/ivacaf tor (ETI) in F508del-h omozygous PDIOs, and 207 
+eight PDIOs showed responses exceeding the mean LUM/IV A response benchmark. Thirty-208 
+eight PDIOs exceeded the mean response to ELX-02 in G542X-homozygous PDIOs as shown 209 
+in Figure 2A. In the nonsense/MF group (n = 77), three PDIOs demonstrated mean responses 210 
+above the mean LUM/IV A benchmark and thirty PDIOs showed responses exceeding mean 211 
+ELX-02 response in G542X-homozygous PDIOs, as shown in Figure 2B.  212 
+Inspection of individual responses revealed that the two highest-responding PDIOs both 213 
+carried the S466X variant, with the S466X/G542X genotype showing a response comparable 214 
+to the mean ETI response observed in F508del-homozygous PDIOs.  215 
+Among the top 10% responders, three nonsense variants, S466X, G542X and Q525X, showed 216 
+enrichment (S466X: OR 1.11, 95% CI 0.96 – 1.27, p = 0.010; G542X: OR 4.54, 95% CI 217 
+1.79–11.51, p < 0.001; Q525X: OR 1.17, 95% CI 0.98 – 1.39, p < 0.001), whereas other 218 
+nonsense variants, including G550X, R553X and E585X, were also observed among the top 219 
+10% responders but were not enriched. Interestingly, all these nonsense variants were located 220 
+within the NBD1 domain. In contrast, PDIOs harboring W1282X were underrepresented 221 
+among the top 10% responders (OR 0.14, 95% CI 0.018 – 1.06, p = 0.030) indicating that this 222 
+variant is associated with lower ELX-02 responsiveness.  223 
+Swelling upon ELX-02 at 80 µM differed significantly across the three genotype categories 224 
+(Figure 2C). The residual function-corrected FIS responses to ELX-02 at 80 µM were highest 225 
+in PDIOs carrying two nonsense variants, compared with PDIOs carrying one nonsense and 226 
+one MF variant. Both the nonsense/nonsense and nonsense/MF groups showed significantly 227 
+higher residual function-corrected FIS responses than the nonsense/other group ( Figure 2C). 228 
+Using ELX-02 at 160 µM, similar responses in both the nonsense/nonsense and nonsense/MF 229 
+were found compared to the response to ELX-02 at 80 µM. However, in PDIOs with 230 
+nonsense/other genotype, ELX-02 at 160 µM concentration reduced FIS responses compared 231 
+to 80 µM ( Figure 2C). Negative FIS values indicate that FIS after exposure to ELX-02 was 232 
+lower than residual function. At 160 µM ELX-02, more negative responses were observed. 233 
+Organoid morphology in PDIOs with high residual function and subsequent reduced swelling 234 
+upon adding ELX-02 is shown in Figure S1.  235 
+Although some of the PDIOs harbor identical genotypes, the majority carry unique 236 
+compound-heterozygous genotypes. Therefore, our study has a theratyping character rather 237 
+th
+an a genotyping approach. In Figure 2D, the violin plots of genotypes with at least two 238 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+7 
+ 
+available PDIOs reveal higher variability for G542X/R1066C and I1234V/W1282X, whereas 239 
+genotypes such as Q525X/3732delA, G85E/G542X and 1717-1G>A/W1088X show minimal 240 
+variability. ELX-02 responses at 80 /i2 µM did not differ between PDIOs with nonsenses close 241 
+to the downstream exon–intron junction ( ≤ 55/i2 nt) and those further away (>55 /i2 nt), 242 
+suggesting that downstream junction distance alone does not predict readthrough efficacy 243 
+(Mann-Whitney U = 3545, p = 0.075). 244 
+Finally, responses were analyzed according to the type of nonsense codon in PDIOs carrying 245 
+either two nonsense variants with the same nonsense codon or one nonsense variant and one 246 
+MF variant. Most nonsense variants introduced a TGA stop codon (n = 102), compared with 247 
+TAA (n = 20) and TAG (n = 11). While residual function did not differ between nonsense 248 
+categories, ELX-02-induced responses at both 80 µM and 160 µM were significantly lower in 249 
+PDIOs harboring TAA nonsense codons than in those with TAG and TGA (Figure 2E). 250 
+Validation of genotype-dependent differential responses to ELX-02  251 
+In the secondary screen, 57 PDIOs with the highest response and 3 PDIOs with no response as 252 
+control were selected, including 31 nonsense/nonsense, 21 nonsense/MF and 8 nonsense/other 253 
+PDIOs, and re-screened at a different institute (HUB). ELX-02 was tested at lower 254 
+concentrations (40 µM and 80 µM) than in the primary screen, reflecting clinically relevant 255 
+ELX-02 plasma levels (6, 25). 256 
+Residual function and residual function-corrected FIS responses to ELX-02 at 80 µM and at 257 
+40 µM did not differ significantly across the three genotype groups ( Figure S3). Figures 3A 258 
+and 3B show the individual responses to ELX-02 at 80 µM and at 40 µM for 259 
+nonsense/nonsense and nonsense/MF, respectively. Residual function-corrected FIS responses 260 
+to ELX-02 at 80 µM were significantly higher than at 40 µM (Wilcoxon signed-rank test, p < 261 
+0.001). Figure 3C illustrates intragenotype variation for genotypes with two or more PDIOs. 262 
+Responses were relatively consistent for R1162X/N1303K, W1282X/W1282X, and 263 
+G542X/E585X, whereas responses in G542X/R553X were more heterogeneous, indicating 264 
+higher intragenotype variability in this case. 265 
+Overall individual response patterns were comparable between primary and secondary screen, 266 
+such as S466X-containing genotypes consistently ranking among highest responders whereas 267 
+PDIOs carrying W1282X variants again clustered among the lower responders. A comparison 268 
+between results from the primary screen to the secondary screen are shown in Figure S4. 269 
+Discussion 270 
+We describe FIS responses to the readthrough agent ELX-02 in a large cohort of PDIOs from 271 
+people with CF harboring a broad range of nonsense variants, extending prior PDIO studies 272 
+focused mostly on G542X, for which ELX-02 failed to demonstrate clinical benefit (6, 8, 13). 273 
+Responses to ELX-02 varied markedly between subjects, ranging from effects that 274 
+approached those observed in F508del/F508del PDIOs treated with LUM/IV A, to minimal 275 
+responses. Overall, maximal FIS responses were modest and remained at the lower end of the 276 
+range observed for approved CFTR modulators, consistent with the limited clinical efficacy 277 
+reported for ELX-02 to date (6, 13). These findings indicate that ELX-02 monotherapy is 278 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+8 
+ 
+likely insufficient for robust functional rescue, underscoring the need to better understand the 279 
+determinants of readthrough efficacy and to develop more effective strategies. 280 
+PDIO responses to ELX-02 were dose-dependent and higher in PDIOs carrying two nonsense 281 
+variants compared with those carrying a single nonsense variant in combination with a 282 
+residual or minimal function allele, as expected based on target availability. Among individual 283 
+genotypes, G542X PDIOs consistently showed higher responses than most other nonsense 284 
+variants. Elevated responses were also observed for S466X, G550X and R553X, which are 285 
+notably all located within NBD1. However, responsiveness was not dependent on the distance 286 
+of the nonsense variant to the nearest intron or the canonical ±55 base pair region associated 287 
+with nonsense-mediated decay (26), although it should be noted that we did not directly 288 
+quantify mutant transcript abundance (e.g., by qPCR), and therefore cannot fully exclude a 289 
+contribution of NMD-mediated reduction of mutant CFTR mRNA to the variability in ELX-290 
+02 responsiveness observed across variants. One possible explanation for the higher 291 
+responsiveness observed among several NBD1-located variants is that amino acid 292 
+substitutions generated during readthrough are better tolerated at specific NBD1 residues. 293 
+Notably, variants such as S466X are located outside the canonical A TP-binding and catalytic 294 
+motifs of NBD1, suggesting that successful readthrough may generate full-length CFTR 295 
+proteins that retain substantial function despite incorporation of a non-native amino acid. 296 
+Consequently, nonsense variants at these positions may be less sensitive to the identity of the 297 
+incorporated amino acid, although local sequence context surrounding the PTC may also 298 
+contribute, as has been suggested in the context of tRNA-based suppression therapies and 299 
+may similarly apply to readthrough approaches (27). More likely, however, responsiveness is 300 
+determined by the functional properties of the resulting readthrough-derived missense CFTR 301 
+protein. This concept is exemplified by G550X, for which the putative readthrough product 302 
+G550W has been shown to generate a highly functional CFTR protein (28). Stratification by 303 
+stop codon identity revealed higher median responses for TGA codons, the most frequent stop 304 
+codon in CFTR, and lower responses for TAA codons. This is consistent with previous 305 
+findings demonstrating that translation termination fidelity and readthrough efficiency 306 
+depend, among other factors, on stop codon identity, with termination efficiency ranked as 307 
+TAA > TAG > TGA and corresponding readthrough efficiency as TGA > TAG > TAA (29). 308 
+Nonetheless, this association was not absolute, as exemplified by the TAA variant Q525X, 309 
+which was among the strongest responders. Thus, neither stop codon identity nor nonsense 310 
+position alone appears sufficient to predict readthrough efficacy. Instead, responsiveness 311 
+likely reflects the combined effects of transcript availability, local sequence context, 312 
+readthrough efficiency, and the functional consequences of the amino acid incorporated 313 
+during readthrough (30). Future studies combining quantitative proteomics allowing 314 
+identification of incorporated amino acids, and functional assessment of corresponding 315 
+missense variants may help disentangle the relative contribution of these mechanisms. 316 
+Despite the identification of responsive genotypes, the overall magnitude of rescue remained 317 
+limited. To interpret these responses in a clinical context, three benchmarks can be considered. 318 
+The lowest benchmark is the mean ELX-02-induced FIS response in G542X/G542X PDIOs, 319 
+since clinical trials with ELX-02 failed to demonstrate clinically meaningful improvements in 320 
+lung function or biomarkers, either as monotherapy or in combination with a potentiator (6, 321 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+9 
+ 
+13). PDIOs response falling below this threshold are therefore unlikely to confer any clinical 322 
+benefit. The intermediate benchmark is the LUM/IV A-induced FIS response in 323 
+F508del/F508del PDIOs, a modulator that demonstrated only modest improvements in FEV/i2  324 
+of approximately three percent predicted in clinical trials, detectable only in large patient 325 
+cohorts (31). PDIOs with responses between the ELX-02 and LUM/IV A benchmarks thus 326 
+represent a zone of uncertain clinical relevance. The highest benchmark is the ETI-induced 327 
+FIS response in F508del/F508del PDIOs, which corresponds to robust clinical benefit. PDIOs 328 
+exceeding this threshold are therefore most likely to show a meaningful clinical response. The 329 
+relatively low range of ELX-02–mediated rescue in PDIOs therefore provides a plausible 330 
+explanation for the absence of clear clinical benefit observed thus far. Although ELX-02 was 331 
+assessed as a standalone readthrough agent to enable direct comparison of variant-specific 332 
+efficacy, future studies could evaluate the combination of ELX-02 or follow-up readthrough 333 
+molecules with CFTR modulators, as these may further rescue the function of readthrough-334 
+generated CFTR protein increasing therapeutic benefit. 335 
+Variability within genotypes was observed, consistent with previous work, possibly reflecting 336 
+the heterogeneity in clinical responses among people with CF carrying identical CFTR 337 
+variants treated with CFTR modulators, likely due to the influence of genetic modifiers and 338 
+other patient-specific factors (8, 32).  339 
+This work underlines the need for further improvements on small molecule-based readthrough 340 
+strategies. Although combinatorial approaches could theoretically enhance rescue through 341 
+corrector or potentiator mechanisms, prior work, including our own, indicates that ELX-02 342 
+combined with ETI does not achieve sufficient functional rescue to expect clinical benefit 343 
+(20). Future studies investigating whether the efficacy of ELX-02 can be further strengthened 344 
+by newer and more effective modulators will be of interest, as will continued progress in the 345 
+chemical optimization of readthrough compounds and the development of nonsense-mediated 346 
+decay inhibitors. 347 
+Despite limited ELX-02 efficacy, these findings underscore the need for informed patient 348 
+selection when designing clinical trials for readthrough therapies, given the large 349 
+heterogeneity in responses to readthrough compounds. PDIO-based functional screening 350 
+suggests that not all nonsense variants respond equally, and that responses near the detection 351 
+threshold can vary substantially. Ignoring this heterogeneity may dilute treatment effects and 352 
+increase the risk of negative trial outcomes, even when a subset of patients could derive 353 
+meaningful benefit in future clinical trials. Incorporating PDIO-based preclinical readouts into 354 
+trial design enables rational prioritization of patients with more responsive nonsense variants, 355 
+increasing the likelihood of detecting true clinical efficacy and supporting precise, 356 
+mechanism-informed trial stratification, as recently demonstrated in the context of the 357 
+CHOICES trial (ClinicalTrials.gov NCT064685270; EudraCT 2022-500410-26-01). In this 358 
+context, systematic evaluation of novel therapeutic strategies across individual nonsense 359 
+variants in a relevant preclinical model such as PDIOs is therefore essential. 360 
+  361 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+10 
+ 
+Acknowledgements 362 
+This is a study connected to the HIT-CF Organoid Study group, which consists of the 363 
+following people: 364 
+Helmut Ellemunter, Katharina Niedermayr (Medical University of Innsbruck, Cystic Fibrosis 365 
+Center, Department of Child and Adolescent Health, Univ. Clinic for Paediatrics III, 366 
+Innsbruck, Austria), Anabela S. Ramalho, Francois Vermeulen (Katholieke Universiteit 367 
+Leuven, Leuven, Belgium), Elke De Wachter, Eef Vanderhelst (CF Center, Universitair 368 
+Ziekenhuis Brussel, Vrije Universiteit Brussel, Brussels, Belgium), Tereza Dousova, Lucie 369 
+Borek-Dohalska (Department of Pediatrics, University Hospital Motol and Second Faculty of 370 
+Medicine, Charles University, Prague, Czechia), Marianne Skov, Tacjana Pressler (CF Center 371 
+Copenhagen, Rigshospitalet, Copenhagen University Hospital, Copenhagen, Denmark), 372 
+Edward F Nash, Marcus Mottershead (University Hospitals Birmingham NHS Foundation 373 
+Trust, Birmingham, UK), Daniel Peckham (Leeds Teaching Hospitals NHS Trust, Leeds, 374 
+UK), Mary Carroll (Adult Cystic Fibrosis Unit, University Hospital Southampton NHS 375 
+Foundation Trust, Southampton, UK), Janisha Patel (Department of Hepatology, University 376 
+Hospital Southampton NHS Foundation Trust, Southampton, UK), Helen Barker, Marlene 377 
+Taveira (Royal Papworth Hospital NHS Foundation Trust, Cambridge, UK), Nicholas J. 378 
+Simmonds (Adult Cystic Fibrosis Center, Royal Brompton Hospital, London, UK; National 379 
+Heart and Lung Institute, Imperial College London, UK), Kinesh Patel (Imperial College 380 
+London, UK; Royal Brompton Hospital, London, UK), Helen L Barr, Jessica Longmate 381 
+(Wolfson Cystic Fibrosis Center, Department of Respiratory Medicine, Nottingham 382 
+University Hospitals NHS Trust, Nottingham, UK), Michael D Waller (King's College 383 
+Hospital NHS Foundation Trust, Adult Cystic Fibrosis and Respiratory Medicine, London, 384 
+UK), Peter J. Barry (Manchester University NHS Foundation Trust, Manchester Adult Cystic 385 
+Fibrosis Center, Wythenshawe Hospital, Manchester, UK; Division of Infection, Immunity 386 
+and Respiratory Medicine, School of Biological Sciences, University of Manchester, 387 
+Manchester, UK), Dipesh H V asant (Gastroenterology, Wythenshawe Hospital, Manchester 388 
+University NHS Foundation Trust, Manchester, UK; Division of Diabetes, Endocrinology and 389 
+Gastroenterology, University of Manchester, Manchester, UK), Michael Fayon, Julie Macey 390 
+(University Hospital, Hôpital Pellegrin-Enfants, Pediatric Cystic Fibrosis Reference Center 391 
+(CRCM), Center d'Investigation Clinique (CIC 1401), Bordeaux, France), Nadine Desmazes-392 
+Dufeu (Bordeaux University, Center de Recherche Cardio-Thoracique de Bordeaux, 393 
+Bordeaux, France), Marlène Murris, Marion Dupuis (Service de Pneumologie-Allergologie 394 
+CRC Mucoviscidose Adulte, Center de Transplantations Pulmonaire, Hôpital Larrey, 395 
+Toulouse, France), Raphaël Chiron, Alexandre Coudrat (Cystic Fibrosis Center, Hôpital 396 
+Arnaud de Villeneuve, Center Hospitalier Universitaire de Montpellier, Univ Montpellier, 397 
+Montpellier, France), Isabelle Durieu, Quitterie Reynaud (Adult Cystic Fibrosis Care Center, 398 
+Hospices Civils de Lyon, EA HESPER 7425, Université de Lyon, Lyon, France), Silke van 399 
+Koningsbruggen, Jan-Christoph Thomassen (CF Center and Experimental Pulmonology, 400 
+Children's Hospital, Faculty of Medicine, University of Cologne, Cologne, Germany), 401 
+Susanne Naehrig (Medizinische Klinik V , Cystic Fibrosis Center for Adults, LMU University 402 
+of Munich, Munich, Germany), Felix C. Ringshausen, Annette Sauer-Heilborn (Department 403 
+of Respiratory Medicine, Hannover Medical School (MHH) and Biomedical Research in End-404 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+11 
+ 
+stage and Obstructive Lung Disease Hannover (BREA TH), German Center for Lung Research 405 
+(DZL), Hannover, Germany), Simon Y . Graeber, Marcus A. Mall (Department of Pediatric 406 
+Pulmonology, Immunology and Critical Care Medicine and Cystic Fibrosis Center, Charité-407 
+Universitätsmedizin Berlin; Berlin Institute of Health (BIH); German Center for Lung 408 
+Research (DZL), Berlin, Germany), Sivagurunathan Sutharsan, Matthias Welsner (Division of 409 
+Cystic Fibrosis, Department of Pulmonary Medicine, University Medicine Essen – 410 
+Ruhrlandklinik, Essen, Germany), Michael Lorenz (Cystic Fibrosis Center / Pediatric 411 
+Pneumology, University of Jena, Jena, Germany), Sabine Wege (Department of Pulmonology 412 
+and Critical Care Medicine, Thoraxklinik at the University of Heidelberg, Heidelberg, 413 
+Germany), Michael Wilschanski, Malena Cohen-Cymberknoh (Center for Cystic Fibrosis, 414 
+Hadassah Hebrew University Medical Center, Jerusalem, Israel), Dario Prais, Meir Mei-415 
+Zahav (Pulmonary Institute, Schneider Children's Medical Center of Israel; Sackler Faculty of 416 
+Medicine, Tel Aviv University, Israel), Vincenzina Lucidi, Fabiana Ciciriello (Pediatric 417 
+Hospital Bambino Gesù, Rome, Italy), Vito Terlizzi, Giovanni Taccetti (Cystic Fibrosis 418 
+Regional Center of Tuscany, Anna Meyer Children's University Hospital, Firenze, Italy), 419 
+Cresta Federico, Carlo Castellani (Cystic Fibrosis Center, IRCCS Istituto Giannina Gaslini, 420 
+Genoa, Italy), Giovanna Pizzamiglio, Leonardo Terranova (Fondazione IRCCS Ca' Granda 421 
+Ospedale Maggiore Policlinico, Internal Medicine Department, Respiratory Unit and Adult 422 
+Cystic Fibrosis Center, Milan, Italy), Carla Colombo, Arianna Bisogno (Cystic Fibrosis 423 
+Center, Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico, Milan, Italy), Paola 424 
+Melotti, Davide Treggiari (Azienda Ospedaliera Universitaria Integrata V erona, Verona, Italy), 425 
+Claudio Sorio (University Dept. of Medicine, General Pathology Division, Univ. of Verona, 426 
+Verona, Italy), Barbara Messore, Sara Demichelis (Azienda Ospedaliero Universitaria San 427 
+Luigi Gonzaga, Adult Cystic Fibrosis Center, Pulmonology Div., Turin, Italy), Dorota Sands, 428 
+Lukasz Wozniacki (Institute of Mother and Child, Cystic Fibrosis Department, Warsaw, 429 
+Poland), Celeste Barreto, Carolina Gonçalves (Departamento de Pediatria, Hospital de Santa 430 
+Maria (CHULN), Centro Académico de Medicina de Lisboa, Lisboa, Portugal), Margarida 431 
+Amaral, Iris Silva (BioISI – Biosystems & Integrative Sciences Institute, University of 432 
+Lisboa, Lisbon, Portugal), Silvia Gartner (Pediatric Pulmonology and Cystic Fibrosis Unit, 433 
+Hospital Universitari V all d’Hebron, Barcelona, Spain), Antonio Alvarez Fernandez (Adults 434 
+Cystic Fibrosis Unit, Hospital Universitari V all d’Hebron, Vall d’Hebron Institut de Recerca 435 
+(VHIR), Barcelona, Spain), Lena Hjelte, Isabelle de Monestrol (Stockholm CF Center, 436 
+Karolinska University Hospital, Karolinska Institutet, Stockholm, Sweden), Marita Gilljam 437 
+(Department of Respiratory Medicine, Sahlgrenska University Hospital, Gothenburg, 438 
+Sweden), Per Hedenström (Unit of GI Endoscopy, Sahlgrenska University Hospital, 439 
+Gothenburg, Sweden), Alexander Möller (University of Zurich, Switzerland), F. Singer 440 
+(Division of Respiratory Medicine, Dept of Pediatrics, Inselspital, University of Bern, Bern, 441 
+Switzerland), M. Bakker (Department of Pulmonology, Erasmus MC, University Medical 442 
+Center, Rotterdam, The Netherlands), H.M. Janssens (Division of Respiratory Medicine and 443 
+Allergology, Dept of Pediatrics, University Medical Center Rotterdam, Erasmus MC-Sophia, 444 
+Rotterdam, The Netherlands), J. Altenburg (Department of Respiratory Medicine, Amsterdam 445 
+University Medical Centres, University of Amsterdam, Amsterdam, The Netherlands), S.W.J. 446 
+Terheggen-Lagro (Department of Pediatric Pulmonology, University Medical Center Utrecht, 447 
+The Netherlands). 448 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+12 
+ 
+This work was supported by the European Union's Horizon 2020 research and innovation 449 
+program under grant agreement No. 755021. 450 
+ 451 
+References 452 
+1. Mall MA, Mayer-Hamblett N, Rowe SM. Cystic Fibrosis: Emergence of Highly 453 
+Effective Targeted Therapeutics and Potential Clinical Implications. Am J Respir Crit 454 
+Care Med. 2020;201(10):1193–208. 455 
+2. CFTR2 mutation database. 2025 [Available from: https://cftr2.org/ . 456 
+3. Mort M, Ivanov D, Cooper DN, Chuzhanova NA. A meta-analysis of nonsense 457 
+mutations causing human genetic disease. Hum Mutat. 2008;29(8):1037–47. 458 
+4. Nguengang Wakap S, Lambert DM, Olry A, Rodwell C, Gueydan C, Lanneau 459 
+V, et al. Estimating cumulative point prevalence of rare diseases: analysis of the 460 
+Orphanet database. Eur J Hum Genet. 2020;28(2):165–73. 461 
+5. Burke JF, Mogg AE. Suppression of a nonsense mutation in mammalian cells 462 
+in vivo by the aminoglycoside antibiotics G-418 and paromomycin. Nucleic Acids 463 
+Res. 1985;13(17):6265–72. 464 
+6. Woolford J. Eloxx Pharmaceuticals Reports Positive Topline Results from 465 
+Monotherapy Arms of Phase 2 Clinical Trial of ELX-02 in Class 1 Cystic Fibrosis 466 
+Patients 2021 [Available from: https://investors.eloxxpharma.com/node/11986/pdf. 467 
+7. Zhao J, Li Z, Puri R, Liu K, Nunez I, Chen L, et al. Molecular profiling of 468 
+individual FDA-approved clinical drugs identifies modulators of nonsense-mediated 469 
+mRNA decay. Mol Ther Nucleic Acids. 2022;27:304–18. 470 
+8. Crawford DK, Alroy I, Sharpe N, Goddeeris MM, Williams G. ELX-02 471 
+Generates Protein via Premature Stop Codon Read-Through without Inducing Native 472 
+Stop Codon Read-Through Proteins. J Pharmacol Exp Ther. 2020;374(2):264–72. 473 
+9. Trzaska C, Amand S, Bailly C, Leroy C, Marchand V, Duvernois-Berthet E, et 474 
+al. 2,6-Diaminopurine as a highly potent corrector of UGA nonsense mutations. Nat 475 
+Commun. 2020;11(1):1509. 476 
+10. Spelier S, van Doorn EPM, van der Ent CK, Beekman JM, Koppens MAJ. 477 
+Readthrough compounds for nonsense mutations: bridging the translational gap. 478 
+Trends Mol Med. 2023;29(4):297–314. 479 
+11. Mercuri E, Muntoni F , Osorio AN, Tulinius M, Buccella F, Morgenroth LP , et al. 480 
+Safety and effectiveness of ataluren: comparison of results from the STRIDE Registry 481 
+and CINRG DMD Natural History Study. J Comp Eff Res. 2020;9(5):341–60. 482 
+12. McDonald CM, Campbell C, Torricelli RE, Finkel RS, Flanigan KM, Goemans 483 
+N, et al. Ataluren in patients with nonsense mutation Duchenne muscular dystrophy 484 
+(ACT DMD): a multicentre, randomised, double-blind, placebo-controlled, phase 3 485 
+trial. Lancet. 2017;390(10101):1489–98. 486 
+13. Woolford J. Eloxx Pharmaceuticals Reports Topline Results from Phase 2 487 
+Combination Clinical Trial of ELX-02 in Class 1 Cystic Fibrosis (CF) Patients 2022 488 
+[Available from: https://investors.eloxxpharma.com/news-releases/news-release-489 
+details/eloxx-pharmaceuticals-reports-topline-results-phase-490 
+2?fbclid=IwAR31GRojriXkl1njErqm3qQCY6-Cw4bgmqP-491 
+hzogmDAz58cY9C_2xnjZeXw. 492 
+14. Dekkers JF, Wiegerinck CL, de Jonge HR, Bronsveld I, Janssens HM, de 493 
+Winter-de Groot KM, et al. A functional CFTR assay using primary cystic fibrosis 494 
+intestinal organoids. Nat Med. 2013;19(7):939–45. 495 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+13 
+ 
+15. Vonk AM, van Mourik P , Ramalho AS, Silva IAL, Statia M, Kruisselbrink E, et 496 
+al. Protocol for Application, Standardization and Validation of the Forskolin-Induced 497 
+Swelling Assay in Cystic Fibrosis Human Colon Organoids. STAR Protoc. 498 
+2020;1(1):100019. 499 
+16. Dekkers JF, Berkers G, Kruisselbrink E, Vonk A, de Jonge HR, Janssens HM, 500 
+et al. Characterizing responses to CFTR-modulating drugs using rectal organoids 501 
+derived from subjects with cystic fibrosis. Sci Transl Med. 2016;8(344):344ra84. 502 
+17. Muilwijk D, de Poel E, van Mourik P, Suen SWF , Vonk AM, Brunsveld JE, et al. 503 
+Forskolin-induced organoid swelling is associated with long-term cystic fibrosis 504 
+disease progression. Eur Respir J. 2022;60(2). 505 
+18. de Winter-de Groot KM, Janssens HM, van Uum RT, Dekkers JF, Berkers G, 506 
+Vonk A, et al. Stratifying infants with cystic fibrosis for disease severity using 507 
+intestinal organoid swelling as a biomarker of CFTR function. Eur Respir J. 508 
+2018;52(3). 509 
+19. Zomer-van Ommen DD, Vijftigschild LA, Kruisselbrink E, Vonk AM, Dekkers 510 
+JF, Janssens HM, et al. Limited premature termination codon suppression by read-511 
+through agents in cystic fibrosis intestinal organoids. J Cyst Fibros. 2016;15(2):158–512 
+62. 513 
+20. de Poel E, Spelier S, Suen SWF, Kruisselbrink E, Graeber SY, Mall MA, et al. 514 
+Functional Restoration of CFTR Nonsense Mutations in Intestinal Organoids. J Cyst 515 
+Fibros. 2022;21(2):246–53. 516 
+21. Spelier S, de Winter-de Groot K, Keijzer-Nieuwenhuijze N, Liem Y, van der Ent 517 
+K, Beekman J, et al. Organoid-guided synergistic treatment of minimal function CFTR 518 
+mutations with CFTR modulators, roflumilast and simvastatin: a personalised 519 
+approach. European Respiratory Journal. 2024;63(1):2300770. 520 
+22. Bierlaagh MC, Ramalho AS, Silva IAL, Vonk AM, van den Bor RM, van Mourik 521 
+P, et al. Repeatability and reproducibility of the Forskolin-induced swelling (FIS) 522 
+assay on intestinal organoids from people with Cystic Fibrosis. J Cyst Fibros. 523 
+2024;23(4):693–702. 524 
+23. Bierlaagh MC, van Mourik P , Vonk AM, Pott J, Muilwijk D, Berkers G, et al. 525 
+Centralized intestinal organoid generation is a feasible and safe approach for 526 
+personalized medicine as demonstrated in the HIT-CF Europe Organoid Study. J 527 
+Cyst Fibros. 2024;23(4):703–6. 528 
+24. Vertex. Eligible MF CFTR Mutations for a Phase 3 Study Evaluation the 529 
+Pharmcokinetics, Safety, and Tolerability of VX-445/TEZ/IVA Triple Combination 530 
+Therapy in Cystic Fibrosis Subjects 6 Through 11 Years of Age 2021 [Available from: 531 
+https://www.cff.org/sites/default/files/2021-12/Study-VX18-445-106-Eligible-532 
+Mutations-June-2019.pdf. 533 
+25. Leubitz A, Frydman-Marom A, Sharpe N, van Duzer J, Campbell KCM, 534 
+Vanhoutte F. Safety, Tolerability, and Pharmacokinetics of Single Ascending Doses of 535 
+ELX-02, a Potential Treatment for Genetic Disorders Caused by Nonsense 536 
+Mutations, in Healthy Volunteers. Clin Pharmacol Drug Dev. 2019;8(8):984–94. 537 
+26. Kurosaki T , Popp MW, Maquat LE. Quality and quantity control of gene 538 
+expression by nonsense-mediated mRNA decay. Nat Rev Mol Cell Biol. 539 
+2019;20(7):406–20. 540 
+27. Bharti N, Santos L, Davyt M, Behrmann S, Eichholtz M, Jimenez-Sanchez A, 541 
+et al. Translation velocity determines the efficacy of engineered suppressor tRNAs on 542 
+pathogenic nonsense mutations. Nat Commun. 2024;15(1):2957. 543 
+28. Chen J, Thrasher K, Fu L, Wang W, Aghamohammadzadeh S, Wen H, et al. 544 
+The synthetic aminoglycoside ELX-02 induces readthrough of G550X-CFTR 545 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+14 
+ 
+producing superfunctional protein that can be further enhanced by CFTR modulators. 546 
+American Journal of Physiology-Lung Cellular and Molecular Physiology. 547 
+2023;324(6):L756–L70. 548 
+29. Mangkalaphiban K, Fu L, Du M, Thrasher K, Keeling KM, Bedwell DM, et al. 549 
+Extended stop codon context predicts nonsense codon readthrough efficiency in 550 
+human cells. Nat Commun. 2024;15(1):2486. 551 
+30. Xue X, Mutyam V, Thakerar A, Mobley J, Bridges RJ, Rowe SM, et al. 552 
+Identification of the amino acids inserted during suppression of CFTR nonsense 553 
+mutations and determination of their functional consequences. Hum Mol Genet. 554 
+2017;26(16):3116–29. 555 
+31. Wainwright CE, Elborn JS, Ramsey BW, Marigowda G, Huang X, Cipolli M, et 556 
+al. Lumacaftor-Ivacaftor in Patients with Cystic Fibrosis Homozygous for Phe508del 557 
+CFTR. New England Journal of Medicine. 2015;373(3):220–31. 558 
+32. Cutting GR. Cystic fibrosis genetics: from molecular understanding to clinical 559 
+application. Nat Rev Genet. 2015;16(1):45–56. 560 
+ 561 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+ 
+Figure 1 ELX-02 screening study design, CFTR nonsense variant distribution, genotype classification, and residual 
+CFTR function. Schematic overview of the study design, including the number of included patients, the drug concentrations 
+tested, the corresponding FIS assays performed, and the laboratories that conducted the screens (1A). Visualisation of the CFTR 
+gene with the position of included nonsense variants, along with the corresponding CFTR primary protein structure  (1B). 
+Classification of genotypes into predefined categories used for all subsequent analyses. Variants were categorized as minimal-
+function (MF) variants when listed as such in the VX18-445-106 study protocol (Study-VX18-445-106-Eligible-Mutations-
+June-2019.pdf) (1C). Waterfall plot of residual CFTR function measured by the FIS assay (2-hour swelling with medium only) 
+for subjects according to genotype categories (1D). Violin plot of residual function  across the three genotype groups (1E). 
+Biorender was used in the generation of Figure 1A.  
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+ 
+ 
+ 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+ 
+Figure 2 Genotype-dependent response to ELX-02 in PDIOs primary screen. Waterfall plot for residual function-corrected 
+0.8 µM forskolin FIS responses to ELX-02 at 80 µM for PDIOs harboring two nonsense variants (2A) and for PDIOs harboring 
+one nonsense variant and one minimal function variant (2B). Three benchmarks are included: 1. Mean ELX-02 80 µM residual 
+function-corrected FIS response of G542X/G542X PDIO reference line at 0.8 µM forskolin indicated in red (1384 AUC); 2. 
+Mean lumacaftor/ivacaftor ( LUM/IV A) residual function-corrected FIS response of F508del/F508del PDIO reference line at 
+0.8 µM forskolin indicated in green ( 4187 AUC); 3. Mean elexacaftor/tezacaftor/ivacaftor (E TI) residual function-corrected 
+FIS response of F508del/F508del PDIO reference line at 0.8 µM forskolin indicated in green (9052 AUC). Error bars represent 
+SEM (n = 2).  Only PDIOS with ELX -02 corrected responses above  the mean G542X/G542X ELX-02 at 80 µM response 
+(1384 AUC) were included in both 2A and 2B gr aph. Responses below this benchmark are considered not clinically relevant 
+and are not shown in the figure. Violin plot of the three categories across the two conditions used in the primary screen (ELX-
+02 160 µM residual-function corrected, ELX-02 80 µM residual function-corrected) (2C). Violin plot of all genotypes with 
+more than one PDIOs in the screen (mean AUC FIS ELX-02 80 µM) (2D). Violin plot of residual function-corrected swelling 
+induced by ELX-02 at 80 and 160 µM according to type of premature termination codon (PTC) in PDIOs with one nonsense 
+and one minimal function variant or two nonsense variants with the same type of PTC (2E). 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
+ 
+Figure 3 Genotype-dependent response to ELX-02 in PDIOs secondary screen. Waterfall plot for residual function-
+corrected 0.8 µM forskolin FIS responses to ELX-02 at 40 µM and 80 µM for PDIOs harboring two nonsense variants (3A) 
+and for PDIOs harboring one nonsense variant and one minimal function variant (3B). Violin plot of all genotypes with more 
+than one PDIOs in the screen (mean AUC FIS ELX-02 80 µM) (3C).  
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted August 3, 2026. ; https://doi.org/10.64898/2026.07.31.740556doi: bioRxiv preprint 
