@@ -1,0 +1,15 @@
+check,value,note
+A rep1_vs_rep2 [DAP],1.0,n=5452
+A rep1_vs_rep2 [G418],1.0,n=5461
+A rep1_vs_rep2 [Untreated],1.0,n=5445
+A rep_ceiling_mean_8drugs,,потолок для random5/genegroup5
+"B stage1_8drugs [cftr_holdout, hgb]",0.63,было с Untreated: 0.63
+"B stage1_8drugs [genegroup5, hgb]",0.704,было с Untreated: 0.649
+"B stage1_8drugs [random5, hgb]",0.705,было с Untreated: 0.651
+C majority_top1 (always DAP),0.434,"частоты: {'DAP': np.float64(0.434), 'Clitocine': np.float64(0.276), 'SJ6986': np.float64(0.158), 'SRI': np.float64(0.079), 'G418': np.float64(0.053)}"
+C majority_top2 (DAP|SJ6986),0.711,против HGB 0.592/0.803
+D CFTRonly_LOO_mean_8drugs,0.361,per-drug min -0.05; против геномной модели 0.614-0.635
+E lodo_fixed_profile,0.518,было 0.654 (утечка)
+E lodo_fixed_pooled_nodrug,0.474,вклад профиля = E - это
+E ceiling_variant_mean_7drugs,0.628,потолок информационного режима (аудит: 0.628)
+F transstop_modelfree_R2,0.863,перенос RT варианта с других препаратов; аудит: 0.648; TransStop: 0.940

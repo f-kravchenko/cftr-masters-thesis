@@ -114,7 +114,8 @@ for held in DRUGS:
     cand = piv.dropna(subset=[held])
     calib_ids = cand.sample(min(300, len(cand)), random_state=SEED).index
     C = piv.loc[calib_ids].corr(method="spearman")      # корреляции на калибровке (few-shot бюджет)
-    tr = TAB[TAB.treatment.isin(others)]
+    tr = TAB[TAB.treatment.isin(others) & ~TAB.mutation_identifier.isin(
+        TAB[(TAB.treatment == held) & ~TAB.mutation_identifier.isin(calib_ids)].mutation_identifier)]  # фикс утечки (аудит 06, п.1): тест-варианты не должны быть в train под другими препаратами
     te = TAB[(TAB.treatment == held) & ~TAB.mutation_identifier.isin(calib_ids)]
     Xtr, Xte = prep(tr), prep(te)
     for h in others:                                     # 7 фич: corr(препарат строки, h)
