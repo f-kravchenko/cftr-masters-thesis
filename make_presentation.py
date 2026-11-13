@@ -58,7 +58,8 @@ print("графики готовы", flush=True)
 
 # ---------------- заполнение pptx ----------------
 SRC = "Шаблон Финальная презентация концепции исследования (ОНИТ, 2025_2026).pptx"
-DST = "Презентация концепции — Кравченко (ОНИТ, 2025_2026).pptx"
+from datetime import datetime
+DST = f"Презентация концепции — Кравченко (ОНИТ, {datetime.now():%Y%m%d_%H%M}).pptx"
 prs = Presentation(SRC)
 
 def set_text(tf, text):
@@ -82,7 +83,7 @@ def set_text(tf, text):
         if runs:
             runs[0].find("a:t", ns).text = line
 
-def fill(slide_idx, replacements, pictures=None):
+def fill(slide_idx, replacements, pictures=None, size=None):
     s = prs.slides[slide_idx]
     for sh in s.shapes:
         if not sh.has_text_frame:
@@ -92,6 +93,10 @@ def fill(slide_idx, replacements, pictures=None):
         for key, txt in replacements:
             if " ".join(key.split()) in cur_norm:
                 set_text(sh.text_frame, txt)
+                if size:
+                    for p in sh.text_frame.paragraphs:
+                        for r in p.runs:
+                            r.font.size = __import__("pptx.util", fromlist=["Pt"]).Pt(size)
                 replacements = [(k, t) for k, t in replacements if k != key]
                 break
     for path, l, t, w in (pictures or []):
@@ -104,7 +109,7 @@ fill(1, [
     ("Тема исследования",
      "In silico-стратификация нонсенс-вариантов CFTR\nдля readthrough-терапии: drug-aware предсказание\nпо последовательности"),
     ("Название магистерской программы", "Магистерская программа: «Науки о данных» (ОНИТ)"),
-])
+], size=28)
 
 # 19 (заготовка): биологический контекст + схема
 fill(19, [
@@ -112,7 +117,7 @@ fill(19, [
     ("Изображение", ""),
     ("Подпись к изображению", "Принцип readthrough-терапии (схема автора)"),
     ("Текст Текст", "• Муковисцидоз — тяжёлое генетическое заболевание; причина — мутации гена CFTR\n"
-                    "• У ~10% пациентов мутации — нонсенс: преждевременный стоп-кодон (PTC) → белок не синтезируется, модуляторы им недоступны в принципе\n"
+                    "• У ~10% пациентов хотя бы одна аллель — нонсенс (преждевременный стоп-кодон, PTC): белок с неё не синтезируется, модуляторы на эту аллель не действуют\n"
                     "• Readthrough-терапия: препарат помогает рибосоме «проскочить» стоп → синтез продолжается\n"
                     "• Эффект зависит от пары «мутация × препарат» и варьирует на порядки; проверка каждой пары (репортеры, органоиды) дорога и не масштабируется\n"
                     "• DS-задача: не заменить эксперимент, а приоритизировать пары для проверки"),
@@ -148,7 +153,7 @@ fill(4, [
 fill(5, [
     ("Опишите \nпрактический компонент проблемы",
      "Практическая проблема: пары «мутация × препарат» нельзя перебрать экспериментально — репортеры и органоиды дороги и плохо масштабируются; без дешёвого приоритизатора новая волна readthrough-терапий повторит провал ataluren.\n"
-     "Актуальность (масштаб): ~10% пациентов МВ — ≈5–7 тыс. в Европе, ≈400–450 в РФ — не имеют терапии принципиально (нет белка-мишени для модуляторов); следующей волнe препаратов при входе в клинику нужен инструмент отбора когорт."),
+     "Актуальность (масштаб): нонсенс-мутацию несёт хотя бы одна аллель у ~10% пациентов МВ — ≈5,5–5,7 тыс. в Европе (ECFSPR, 57 288 пациентов, 2024) и ≈400–450 в РФ (регистр, 4 355 пациентов, 2024). Модуляторы на нонсенс-аллель не действуют — белок с неё не производится; при двух нонсенс-аллелях (~1%) терапии нет вовсе. Следующей волне readthrough-препаратов нужен инструмент отбора когорт."),
 ])
 
 # 6: цель
@@ -228,17 +233,17 @@ fill(12, [
                 "3. Mangkalaphiban A. et al. // Nature Communications. 2024. 15:2486.\n"
                 "4. Destoop E. et al. // J. Cystic Fibrosis. 2026; bioRxiv 2026.07.31.740556.\n"
                 "5. Veiner I. et al. NMDetective-AI. bioRxiv 2026.03.24.714003."),
-])
+], size=13)
 fill(13, [
     ("Список", "6. Linde L. et al. // J. Clin. Invest. 2007. 117(3):683–692.\n"
                 "7. Konstan M. et al. // Lancet Respir Med. 2014; J. Cyst. Fibros. 2020 (ataluren, фазы 3).\n"
                 "8. Thrasher S. et al. // J. Cystic Fibrosis. 2026 (вставка аминокислот, LC-MS/MS).\n"
                 "9. McDonald C. et al. // PLOS ONE. 2024.\n"
                 "10. Полный обзор: literature/ (26 файлов) в репозитории проекта."),
-])
+], size=13)
 
 # 14: спасибо
-fill(14, [("Спасибо", "Спасибо за внимание!\nРепозиторий: github.com/f-kravchenko/cftr-masters-thesis\nВопросы?")])
+fill(14, [("Спасибо", "Спасибо за внимание!\nРепозиторий: github.com/f-kravchenko/cftr-masters-thesis\nВопросы?")], size=32)
 
 # ---- порядок слайдов: титул, контекст(19), источники(2), вопрос(3), пробл/новизна(4),
 # пробл/актуальность(5), цель(6), гипотезы(7), методология(8), методика(9), данные(10),
@@ -250,6 +255,30 @@ for el in slides:
     xml_slides.remove(el)
 for i in order:
     xml_slides.append(slides[i])
+
+# --- зачистка подсказочных фреймов на контентных слайдах + размеры ---
+from pptx.util import Pt as _Pt
+HINTS = ["Текст текст текст", "Могут быть описаны", "Список Список", "Заголовок слайда",
+         "Изображение", "Подпись к изображению", "Список маркированный", "Список нумерованный",
+         "Диаграмма", "Ссылка на"]
+for si in range(16):   # финальные индексы контентных слайдов (после переупорядочивания)
+    for sh in prs.slides[si].shapes:
+        if not sh.has_text_frame:
+            continue
+        t = " ".join(r.text for p in sh.text_frame.paragraphs for r in p.runs)
+        tn = " ".join(t.split())
+        if any(h in tn for h in HINTS):
+            set_text(sh.text_frame, "")
+        for p in sh.text_frame.paragraphs:
+            for r in p.runs:
+                if r.font.size is None:
+                    r.font.size = _Pt(14)
+
+# коробка «Выполнил» на титуле выходила за нижний край — поднимаем
+for sh in prs.slides[0].shapes:
+    if sh.has_text_frame and "Выполнил" in sh.text_frame.text:
+        sh.top = int(4.10 * 914400)
+        sh.height = int(1.15 * 914400)
 
 prs.save(DST)
 print("готово:", DST, "| слайдов:", len(prs.slides.__iter__.__self__._sldIdLst))
