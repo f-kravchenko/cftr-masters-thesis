@@ -41,3 +41,7 @@
 - SJ6986: [Nishiguchi 2021](https://pubmed.ncbi.nlm.nih.gov/34905530/); CC-90009 при CFTR: [Lee 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9479597)
 - Ataluren: [McElroy 2013](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001593), [Akins 2016](https://www.pnas.org/doi/10.1073/pnas.1605336113), [Tobaly 2022](https://www.nature.com/articles/s41467-022-30080-6)
 - ELX-02: [PMC10202470](https://pmc.ncbi.nlm.nih.gov/articles/PMC10202470)
+
+## Дополнение (13.11.2026): ELX-02 → exaluren
+
+ELX-02 переименован в **exaluren**; фокус Eloxx — нефрология. Опубликована фаза 2a по Альпорту (Gale et al., J. Clin. Invest., 12.11.2026, doi:10.1172/JCI208623): рост коллагена IV(α3/α4/α5) в биоптатах — первое прямое in vivo доказательство readthrough; идёт слепая фаза 2b EXACT (NCT07523581), Phase 2 EXPRESS в ADPKD (topline 2029). Клиническая программа CF терминирована (сент. 2022), рецензируемой публикации её итогов нет. Полный разбор: `27_elx02_deep.md`.
