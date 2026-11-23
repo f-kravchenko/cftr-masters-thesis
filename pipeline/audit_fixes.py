@@ -139,7 +139,8 @@ for held in DRUG_ORDER:
     X = X.fillna(X.mean())
     r = Ridge(alpha=1.0).fit(X, y)
     te_ids = teW[teW[held].notna()].index
-    Xt = W.loc[te_ids, others].fillna(X.mean())
+    # входы только из train: значения того же варианта под другими препаратами (10% из них лежат в тестовых строках)
+    Xt = Wtr.reindex(te_ids)[others].fillna(X.mean())
     preds += r.predict(Xt).tolist()
     labels += W.loc[te_ids, held].tolist()
 preds = np.array(preds); labels = np.array(labels)

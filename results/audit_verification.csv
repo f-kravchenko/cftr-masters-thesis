@@ -12,4 +12,4 @@ D CFTRonly_LOO_mean_8drugs,0.361,per-drug min -0.05; против геномно
 E lodo_fixed_profile,0.518,было 0.654 (утечка)
 E lodo_fixed_pooled_nodrug,0.474,вклад профиля = E - это
 E ceiling_variant_mean_7drugs,0.628,потолок информационного режима (аудит: 0.628)
-F transstop_modelfree_R2,0.863,перенос RT варианта с других препаратов; аудит: 0.648; TransStop: 0.940
+F transstop_modelfree_R2,0.833,перенос RT варианта с других препаратов; аудит: 0.648; TransStop: 0.940
