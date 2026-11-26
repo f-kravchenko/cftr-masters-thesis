@@ -35,10 +35,11 @@
 
 - Toledano 2024: [PMC11387191](https://pmc.ncbi.nlm.nih.gov/articles/PMC11387191/)
 - Аминогликозиды/рибосома: [Prokhorova 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5754804), [Wangen & Green 2020](https://pubmed.ncbi.nlm.nih.gov/32191706/)
-- Clitocine: [Friesen 2017](https://pubmed.ncbi.nlm.nih.gov/28529018/); FUr: [Palomar-Siles 2022](https://pubmed.ncbi.nlm.nih.gov/36433934)
+- Clitocine: [Friesen 2017, RNA, PMID 28096517](https://pubmed.ncbi.nlm.nih.gov/28096517/); FUr: [Palomar-Siles 2022](https://pubmed.ncbi.nlm.nih.gov/36433934)
 - DAP/FTSJ1: [Trzaska 2020](https://www.nature.com/articles/s41467-020-15140-z)
-- SRI-41315: [Sharma 2021](https://www.nature.com/articles/s41467-021-26350-w)
-- SJ6986: [Nishiguchi 2021](https://pubmed.ncbi.nlm.nih.gov/34905530/); CC-90009 при CFTR: [Lee 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9479597)
+- SRI-41315: [Sharma 2021, Nat Commun, PMID 34272367](https://www.nature.com/articles/s41467-021-24575-x); «молекулярный клей» между eRF1 и рибосомой: [Coelho 2024, Nat Chem Biol, PMID 38172604](https://pubmed.ncbi.nlm.nih.gov/38172604/)
+- SJ6986: [Chang 2023, Blood, PMID 37172201](https://pubmed.ncbi.nlm.nih.gov/37172201/); CC-90009 при CFTR: [Lee 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9479597)
+- (26.11.2026 ссылки на механизмы сверены по Europe PMC: исправлены PMID для clitocine и SJ6986 и DOI для SRI-41315 — прежние вели на чужие статьи. Первоисточник по SJ6986, Nishiguchi 2021, этим поиском не найден.)
 - Ataluren: [McElroy 2013](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001593), [Akins 2016](https://www.pnas.org/doi/10.1073/pnas.1605336113), [Tobaly 2022](https://www.nature.com/articles/s41467-022-30080-6)
 - ELX-02: [PMC10202470](https://pmc.ncbi.nlm.nih.gov/articles/PMC10202470)
 

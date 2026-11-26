@@ -4,7 +4,7 @@
 
 ## Библиография (для списка литературы)
 
-TransStop: drug-aware prediction of stop codon readthrough // bioRxiv. 2025. doi:10.1101/2025.08.29.672857. (Группа Olivier Poch, Страсбург; точный список авторов — уточнить по препринту.)
+TransStop, a genomic language model for the pan-drug prediction of translational readthrough efficacy / N. Haas, A. Kress, J. D. Thompson, O. Poch // bioRxiv. 2025. doi:10.1101/2025.08.29.672857. (Препринт; название и авторы сверены с bioRxiv и Europe PMC 26.11.2026 — журнальной версии нет.)
 
 ## Что сделано (методы, датасет)
 
@@ -14,7 +14,7 @@ TransStop: drug-aware prediction of stop codon readthrough // bioRxiv. 2025. doi
 
 ## Ключевые результаты
 
-- Pan-drug **R²=0.94** на held-out тесте против 0.83 у бейзлайна Toledano (elastic net).
+- Pan-drug **R²=0.94** на held-out тесте. Для сравнения авторы приводят r²=0.83 линейной модели Toledano, но это число из самой статьи Toledano (10 раундов перекрёстной проверки 90/10 на их данных, квадрат корреляции предсказания с измерением). В коде TransStop оно вписано константой (`TransStop/scripts/analysis_and_reporting.py`, строка 394); на тесте TransStop линейную модель никто не оценивал.
 - Per-drug R²: SRI 0.92, DAP 0.92, SJ6986 0.91, clitocine 0.90, G418 0.86, CC90009 0.79, гентамицин 0.77.
 - CFTR — только **in-silico «therapeutic matrix»** (G542X, R553X, R1162X, W1282X) без экспериментальной/held-out валидации переноса.
 
